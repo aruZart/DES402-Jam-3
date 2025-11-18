@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/Enum_DialogueState.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/AC_Dialogue_Base.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/UI/W_Dialogue.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/UI/W_DialogueOption.uasset",
 				"C:/Users/dzing/OneDrive/Documents/Unreal Projects/Childfree/Content/Childfree-Level.umap"
 			]
 		}
