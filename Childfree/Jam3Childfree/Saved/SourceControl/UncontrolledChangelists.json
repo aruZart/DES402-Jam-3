@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Uni/Abertayy/315/github/DES402-Jam-3/Childfree/Jam3Childfree/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Uni/Abertayy/315/github/DES402-Jam-3/Childfree/Jam3Childfree/Content/Hannah/Lvl1_blockout.umap"
+			]
+		}
+	]
+}
