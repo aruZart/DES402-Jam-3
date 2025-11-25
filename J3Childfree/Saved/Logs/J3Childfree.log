@@ -1970,3 +1970,386 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.25-14.04.20:727][891]LogSavePackage: Moving '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Dining_Room_Auto3B950576A42A3762C3E2439B717DB4291.tmp' to '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Autosaves/Game/Hannah/Dining_Room_Auto3.umap'
 [2025.11.25-14.04.20:728][891]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Hannah/Dining_Room' took 0.049
 [2025.11.25-14.04.20:728][891]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2025.11.25-14.07.16:191][504]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.11.25-14.07.16:210][504]LogContentBrowser: Creating deferred item: NewWorld
+[2025.11.25-14.07.16:230][505]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.11.25-14.07.25:483][191]LogContentBrowser: Attempting asset rename: NewWorld -> Level1_Hospital
+[2025.11.25-14.07.25:484][191]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Hospital
+[2025.11.25-14.07.25:487][191]LogContentBrowser: End creating deferred item NewWorld
+[2025.11.25-14.07.26:619][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.11.25-14.07.28:333][257]LogSlate: Window 'Save Content' being destroyed
+[2025.11.25-14.07.28:350][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.25-14.07.28:457][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.11.25-14.07.28:478][257]LogSavePackage: Moving output files for package: /Game/Hannah/Dining_Room
+[2025.11.25-14.07.28:479][257]LogSavePackage: Moving '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Dining_RoomA3F9D8C641404EC185A3D4BF65264C8D.tmp' to '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Content/Hannah/Dining_Room.umap'
+[2025.11.25-14.07.28:485][257]LogFileHelpers: Saving map 'Dining_Room' took 0.075
+[2025.11.25-14.07.28:519][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.11.25-14.07.28:523][257]LogSavePackage: Moving output files for package: /Game/Hannah/Level1_Hospital
+[2025.11.25-14.07.28:523][257]LogSavePackage: Moving '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Level1_Hospital1DDDA86749861A91C485C48CB93516A7.tmp' to '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Content/Hannah/Level1_Hospital.umap'
+[2025.11.25-14.07.28:525][257]LogFileHelpers: Saving map 'Level1_Hospital' took 0.040
+[2025.11.25-14.07.28:594][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 243.516 ms (total: 451.574 ms)
+[2025.11.25-14.07.28:594][257]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Hannah/Level1_Hospital.Level1_Hospital
+[2025.11.25-14.07.28:594][257]Cmd: MAP LOAD FILE="../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Content/Hannah/Level1_Hospital.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.25-14.07.28:617][257]LogWorld: UWorld::CleanupWorld for Dining_Room, bSessionEnded=true, bCleanupResources=true
+[2025.11.25-14.07.28:617][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.07.28:653][257]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.25-14.07.28:655][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.25-14.07.28:658][257]LogWorld: UWorld::CleanupWorld for Level1_Hospital, bSessionEnded=true, bCleanupResources=true
+[2025.11.25-14.07.28:659][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.07.28:692][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.11.25-14.07.28:725][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.25-14.07.28:726][257]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.25-14.07.28:727][257]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1_Hospital'.
+[2025.11.25-14.07.28:728][257]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Hospital
+[2025.11.25-14.07.28:770][257]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.25-14.07.28:809][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.25-14.07.28:819][257]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.25-14.07.28:819][257]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2025.11.25-14.07.28:894][257]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.25-14.07.28:894][257]LogContentValidation: Enabled validators:
+[2025.11.25-14.07.28:894][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.25-14.07.28:894][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.25-14.07.28:894][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.25-14.07.28:895][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.25-14.07.28:895][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.25-14.07.28:895][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.25-14.07.28:895][257]AssetCheck: /Game/Hannah/Level1_Hospital Validating asset
+[2025.11.25-14.07.28:930][257]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.25-14.07.29:030][259]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.25-14.10.52:654][254]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5053.743652
+[2025.11.25-14.10.52:807][271]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.25-14.10.52:807][271]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5053.886230, Update Interval: 329.433258
+[2025.11.25-14.17.13:154][177]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5434.222168
+[2025.11.25-14.17.13:283][192]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.25-14.17.13:283][192]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5434.343750, Update Interval: 304.711456
+[2025.11.25-14.21.28:924][291]LogPSOHitching: Encountered 550 PSO creation hitches so far (222 graphics, 328 compute). 0 of them were precached.
+[2025.11.25-14.23.08:841][802]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5789.895020
+[2025.11.25-14.23.09:841][805]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.25-14.23.09:841][805]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5790.561523, Update Interval: 320.662262
+[2025.11.25-14.26.56:123][ 53]LogEditor: Attempting to add actor of class 'SkyLight' to level at 0.00,0.00,0.00
+[2025.11.25-14.26.57:350][150]LogEditor: Attempting to add actor of class 'SkyAtmosphere' to level at 0.00,0.00,0.00
+[2025.11.25-14.26.58:623][234]LogEditor: Attempting to add actor of class 'DirectionalLight' to level at 0.00,0.00,0.00
+[2025.11.25-14.26.58:841][236]LogPSOHitching: Encountered 600 PSO creation hitches so far (231 graphics, 369 compute). 0 of them were precached.
+[2025.11.25-14.27.09:734][ 74]LogEditor: Attempting to add actor of class 'VolumetricCloud' to level at 0.00,0.00,0.00
+[2025.11.25-14.27.11:164][163]LogEditor: Attempting to add actor of class 'ExponentialHeightFog' to level at 0.00,0.00,0.00
+[2025.11.25-14.27.12:836][283]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2025.11.25-14.27.12:847][283]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2025.11.25-14.27.19:549][910]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.25-14.27.19:549][910]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.25-14.27.19:550][910]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_0
+[2025.11.25-14.27.19:551][910]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_0
+[2025.11.25-14.27.19:806][910]LogPSOHitching: Encountered 650 PSO creation hitches so far (249 graphics, 401 compute). 0 of them were precached.
+[2025.11.25-14.27.31:755][883]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.25-14.27.31:755][883]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.25-14.27.31:756][883]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_1
+[2025.11.25-14.27.31:757][883]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_1
+[2025.11.25-14.28.47:193][777]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.25-14.28.47:193][777]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.25-14.28.47:194][777]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_2
+[2025.11.25-14.28.47:195][777]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_2
+[2025.11.25-14.29.11:538][559]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6152.575195
+[2025.11.25-14.29.12:537][562]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.25-14.29.12:537][562]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6153.241211, Update Interval: 325.763733
+[2025.11.25-14.29.31:622][697]Cmd: EDIT COPY
+[2025.11.25-14.29.31:876][719]Cmd: EDIT PASTE
+[2025.11.25-14.29.33:819][878]Cmd: EDIT COPY
+[2025.11.25-14.29.34:063][898]Cmd: EDIT PASTE
+[2025.11.25-14.29.38:029][234]Cmd: EDIT COPY
+[2025.11.25-14.29.38:239][250]Cmd: EDIT PASTE
+[2025.11.25-14.29.47:337][981]Cmd: EDIT COPY
+[2025.11.25-14.29.47:555][991]Cmd: EDIT PASTE
+[2025.11.25-14.29.55:255][647]Cmd: EDIT COPY
+[2025.11.25-14.29.55:484][665]Cmd: EDIT PASTE
+[2025.11.25-14.29.57:386][814]Cmd: EDIT COPY
+[2025.11.25-14.29.57:564][827]Cmd: EDIT PASTE
+[2025.11.25-14.29.59:291][958]Cmd: EDIT COPY
+[2025.11.25-14.29.59:472][974]Cmd: EDIT PASTE
+[2025.11.25-14.30.15:741][149]Cmd: EDIT COPY
+[2025.11.25-14.30.15:945][164]Cmd: EDIT PASTE
+[2025.11.25-14.30.19:617][464]Cmd: EDIT COPY
+[2025.11.25-14.30.19:836][480]Cmd: EDIT PASTE
+[2025.11.25-14.30.21:684][617]Cmd: EDIT COPY
+[2025.11.25-14.30.21:894][635]Cmd: EDIT PASTE
+[2025.11.25-14.30.25:894][923]Cmd: EDIT COPY
+[2025.11.25-14.30.26:100][941]Cmd: EDIT PASTE
+[2025.11.25-14.30.28:899][155]Cmd: EDIT COPY
+[2025.11.25-14.30.29:080][161]Cmd: EDIT PASTE
+[2025.11.25-14.30.32:463][412]Cmd: EDIT COPY
+[2025.11.25-14.30.32:638][427]Cmd: EDIT PASTE
+[2025.11.25-14.30.34:605][574]Cmd: EDIT COPY
+[2025.11.25-14.30.34:800][591]Cmd: EDIT PASTE
+[2025.11.25-14.30.36:445][720]Cmd: EDIT COPY
+[2025.11.25-14.30.36:671][738]Cmd: EDIT PASTE
+[2025.11.25-14.30.39:812][962]Cmd: EDIT COPY
+[2025.11.25-14.30.40:020][977]Cmd: EDIT PASTE
+[2025.11.25-14.30.44:598][348]Cmd: EDIT COPY
+[2025.11.25-14.30.44:789][365]Cmd: EDIT PASTE
+[2025.11.25-14.30.46:298][483]Cmd: EDIT COPY
+[2025.11.25-14.30.46:488][500]Cmd: EDIT PASTE
+[2025.11.25-14.30.48:336][637]Cmd: EDIT COPY
+[2025.11.25-14.30.48:531][652]Cmd: EDIT PASTE
+[2025.11.25-14.31.04:757][852]Cmd: EDIT COPY
+[2025.11.25-14.31.04:968][859]Cmd: EDIT PASTE
+[2025.11.25-14.31.06:822][986]Cmd: EDIT COPY
+[2025.11.25-14.31.07:036][  3]Cmd: EDIT PASTE
+[2025.11.25-14.31.09:596][208]Cmd: EDIT COPY
+[2025.11.25-14.31.09:795][225]Cmd: EDIT PASTE
+[2025.11.25-14.31.11:366][342]Cmd: EDIT COPY
+[2025.11.25-14.31.11:552][356]Cmd: EDIT PASTE
+[2025.11.25-14.31.25:545][425]Cmd: DELETE
+[2025.11.25-14.31.25:545][425]Cmd: ACTOR DELETE
+[2025.11.25-14.31.25:547][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.31.25:578][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.25-14.31.25:586][425]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2025.11.25-14.31.25:953][450]Cmd: DELETE
+[2025.11.25-14.31.25:953][450]Cmd: ACTOR DELETE
+[2025.11.25-14.31.25:955][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.31.25:991][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.25-14.31.25:997][450]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2025.11.25-14.31.26:372][478]Cmd: DELETE
+[2025.11.25-14.31.26:372][478]Cmd: ACTOR DELETE
+[2025.11.25-14.31.26:374][478]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.31.26:399][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.25-14.31.26:402][478]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2025.11.25-14.31.27:398][564]Cmd: DELETE
+[2025.11.25-14.31.27:398][564]Cmd: ACTOR DELETE
+[2025.11.25-14.31.27:400][564]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.31.27:429][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.11.25-14.31.27:432][564]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.11.25-14.31.27:861][597]Cmd: DELETE
+[2025.11.25-14.31.27:861][597]Cmd: ACTOR DELETE
+[2025.11.25-14.31.27:863][597]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.31.27:901][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.25-14.31.27:904][597]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.11.25-14.31.28:412][632]Cmd: DELETE
+[2025.11.25-14.31.28:412][632]Cmd: ACTOR DELETE
+[2025.11.25-14.31.28:415][632]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.31.28:441][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.25-14.31.28:445][632]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.11.25-14.31.35:482][225]Cmd: EDIT COPY
+[2025.11.25-14.31.35:703][244]Cmd: EDIT PASTE
+[2025.11.25-14.33.17:187][193]Cmd: EDIT COPY
+[2025.11.25-14.33.17:428][207]Cmd: EDIT PASTE
+[2025.11.25-14.33.42:357][995]Cmd: EDIT COPY
+[2025.11.25-14.33.42:582][ 11]Cmd: EDIT PASTE
+[2025.11.25-14.33.52:190][789]Cmd: DELETE
+[2025.11.25-14.33.52:190][789]Cmd: ACTOR DELETE
+[2025.11.25-14.33.52:192][789]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.33.52:221][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.25-14.33.52:230][789]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.11.25-14.33.57:234][252]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.25-14.33.57:234][252]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.25-14.33.57:235][252]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_29
+[2025.11.25-14.33.57:236][252]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.StaticMeshActor_29
+[2025.11.25-14.33.57:486][253]LogPSOHitching: Encountered 700 PSO creation hitches so far (280 graphics, 420 compute). 0 of them were precached.
+[2025.11.25-14.34.34:793][ 86]Cmd: EDIT COPY
+[2025.11.25-14.34.35:032][106]Cmd: EDIT PASTE
+[2025.11.25-14.34.49:268][212]Cmd: EDIT COPY
+[2025.11.25-14.34.49:485][224]Cmd: EDIT PASTE
+[2025.11.25-14.35.20:972][686]Cmd: EDIT COPY
+[2025.11.25-14.35.21:187][693]Cmd: EDIT PASTE
+[2025.11.25-14.35.22:958][819]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6524.042480
+[2025.11.25-14.35.23:107][832]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.25-14.35.23:107][832]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6524.179688, Update Interval: 345.460999
+[2025.11.25-14.35.27:254][157]Cmd: EDIT COPY
+[2025.11.25-14.35.27:507][172]Cmd: EDIT PASTE
+[2025.11.25-14.35.33:376][587]Cmd: TRANSACTION UNDO
+[2025.11.25-14.35.33:376][587]LogEditorTransaction: Undo Move Elements
+[2025.11.25-14.35.49:387][843]Cmd: EDIT COPY
+[2025.11.25-14.35.49:581][849]Cmd: EDIT PASTE
+[2025.11.25-14.36.16:489][873]Cmd: EDIT COPY
+[2025.11.25-14.36.16:744][894]Cmd: EDIT PASTE
+[2025.11.25-14.36.49:975][986]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.11.25-14.36.49:975][986]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.11.25-14.36.49:978][986]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.PlayerStart_0
+[2025.11.25-14.36.49:978][986]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.36.49:978][986]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Hannah/Level1_Hospital.Level1_Hospital:PersistentLevel.PlayerStart_0
+[2025.11.25-14.36.49:978][986]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.36.50:004][986]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.36.54:796][332]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.36.58:046][548]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.36.58:825][612]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.36.59:742][688]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.37.00:527][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.37.08:579][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.25-14.37.08:584][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.25-14.37.08:585][537]LogPlayLevel: Display: Creating online subsystem for client :Context_3
+[2025.11.25-14.37.08:588][537]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2025.11.25-14.37.08:623][538]LogPlayLevel: Creating play world package: /Game/Hannah/UEDPIE_0_Level1_Hospital
+[2025.11.25-14.37.08:631][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008079s)
+[2025.11.25-14.37.08:631][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hannah/Level1_Hospital.Level1_Hospital to /Game/Hannah/UEDPIE_0_Level1_Hospital.Level1_Hospital (0.008222s)
+[2025.11.25-14.37.08:682][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.25-14.37.08:690][538]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Hospital
+[2025.11.25-14.37.08:693][538]LogPlayLevel: PIE: World Init took: (0.002639s)
+[2025.11.25-14.37.08:694][538]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.25-14.37.08:694][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.25-14.37.08:694][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.25-14.37.08:694][538]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.25-14.37.08:694][538]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.25-14.37.08:694][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.25-14.37.08:697][538]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.25-14.37.08:741][538]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.11.25-14.37.08:741][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.25-14.37.08:742][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.25-14.37.08:742][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.25-14.37.08:743][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.11.25-14.37.08:743][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.11.25-14.37.08:746][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.11.25-14.37.08:746][538]LogInit: FAudioDevice initialized with ID 2.
+[2025.11.25-14.37.08:746][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.11.25-14.37.08:746][538]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level1_Hospital'.
+[2025.11.25-14.37.08:746][538]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.25-14.37.08:751][538]LogLoad: Game class is 'GameModeBase'
+[2025.11.25-14.37.08:753][538]LogWorld: Bringing World /Game/Hannah/UEDPIE_0_Level1_Hospital.Level1_Hospital up for play (max tick rate 0) at 2025.11.25-14.37.08
+[2025.11.25-14.37.08:753][538]LogWorld: Bringing up level for play took: 0.001779
+[2025.11.25-14.37.08:758][538]PIE: Server logged in
+[2025.11.25-14.37.08:760][538]PIE: Play in editor total start time 0.176 seconds.
+[2025.11.25-14.37.08:844][539]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.25-14.37.19:165][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.25-14.37.19:165][527]LogWorld: BeginTearingDown for /Game/Hannah/UEDPIE_0_Level1_Hospital
+[2025.11.25-14.37.19:165][527]LogWorld: UWorld::CleanupWorld for Level1_Hospital, bSessionEnded=true, bCleanupResources=true
+[2025.11.25-14.37.19:165][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.37.19:167][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.25-14.37.19:172][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.37.19:205][527]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.25-14.37.19:205][527]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.25-14.37.19:205][527]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.11.25-14.37.19:208][527]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.11.25-14.37.19:213][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.25-14.37.19:216][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.25-14.37.19:304][528]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.11.25-14.37.24:423][949]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.37.26:636][130]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.11.25-14.37.27:649][212]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.25-14.37.27:656][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.25-14.37.27:684][212]LogPlayLevel: Display: Creating online subsystem for client :Context_4
+[2025.11.25-14.37.27:687][212]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.11.25-14.37.27:724][213]LogPlayLevel: Creating play world package: /Game/Hannah/UEDPIE_0_Level1_Hospital
+[2025.11.25-14.37.27:728][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004408s)
+[2025.11.25-14.37.27:728][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Hannah/Level1_Hospital.Level1_Hospital to /Game/Hannah/UEDPIE_0_Level1_Hospital.Level1_Hospital (0.004488s)
+[2025.11.25-14.37.27:761][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.11.25-14.37.27:764][213]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1_Hospital
+[2025.11.25-14.37.27:767][213]LogPlayLevel: PIE: World Init took: (0.002817s)
+[2025.11.25-14.37.27:768][213]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.25-14.37.27:768][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.25-14.37.27:768][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.25-14.37.27:768][213]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.25-14.37.27:768][213]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.25-14.37.27:768][213]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.25-14.37.27:771][213]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.25-14.37.27:814][213]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.11.25-14.37.27:814][213]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.25-14.37.27:814][213]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.25-14.37.27:814][213]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.25-14.37.27:815][213]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.11.25-14.37.27:815][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.11.25-14.37.27:818][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.11.25-14.37.27:818][213]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.11.25-14.37.27:818][213]LogInit: FAudioDevice initialized with ID 3.
+[2025.11.25-14.37.27:818][213]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1_Hospital'.
+[2025.11.25-14.37.27:819][213]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.25-14.37.27:823][213]LogLoad: Game class is 'GameModeBase'
+[2025.11.25-14.37.27:824][213]LogWorld: Bringing World /Game/Hannah/UEDPIE_0_Level1_Hospital.Level1_Hospital up for play (max tick rate 0) at 2025.11.25-14.37.27
+[2025.11.25-14.37.27:825][213]LogWorld: Bringing up level for play took: 0.001774
+[2025.11.25-14.37.27:827][213]PIE: Server logged in
+[2025.11.25-14.37.27:829][213]PIE: Play in editor total start time 0.174 seconds.
+[2025.11.25-14.37.27:894][214]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.25-14.37.31:514][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.25-14.37.31:514][557]LogWorld: BeginTearingDown for /Game/Hannah/UEDPIE_0_Level1_Hospital
+[2025.11.25-14.37.31:514][557]LogWorld: UWorld::CleanupWorld for Level1_Hospital, bSessionEnded=true, bCleanupResources=true
+[2025.11.25-14.37.31:515][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.37.31:517][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.25-14.37.31:523][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.37.31:545][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.25-14.37.31:545][557]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.25-14.37.31:545][557]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.11.25-14.37.31:547][557]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.11.25-14.37.31:554][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.25-14.37.31:645][558]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.11.25-14.37.34:692][782]Cmd: EDIT COPY
+[2025.11.25-14.37.34:896][800]Cmd: EDIT PASTE
+[2025.11.25-14.38.21:566][827]Cmd: EDIT COPY
+[2025.11.25-14.38.22:507][911]Cmd: EDIT PASTE
+[2025.11.25-14.38.36:397][999]Cmd: EDIT COPY
+[2025.11.25-14.38.36:611][ 16]Cmd: EDIT PASTE
+[2025.11.25-14.39.16:179][290]Cmd: DELETE
+[2025.11.25-14.39.16:179][290]Cmd: ACTOR DELETE
+[2025.11.25-14.39.16:181][290]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.25-14.39.16:207][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.11.25-14.39.16:213][290]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.11.25-14.39.22:190][773]Cmd: EDIT COPY
+[2025.11.25-14.39.22:404][788]Cmd: EDIT PASTE
+[2025.11.25-14.40.31:419][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.25-14.40.31:437][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Hannah/Level1_Hospital_Auto4
+[2025.11.25-14.40.31:437][897]LogSavePackage: Moving '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Level1_Hospital_Auto4AB2281E24B408C6F953005851BD31F06.tmp' to '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Autosaves/Game/Hannah/Level1_Hospital_Auto4.umap'
+[2025.11.25-14.40.31:438][897]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Hannah/Level1_Hospital' took 0.048
+[2025.11.25-14.40.31:438][897]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2025.11.25-14.41.22:836][419]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.11.25-14.41.22:847][419]LogContentBrowser: Creating deferred item: NewWorld
+[2025.11.25-14.41.22:866][420]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.11.25-14.41.28:228][895]LogContentBrowser: Attempting asset rename: NewWorld -> Level2_Dungeon
+[2025.11.25-14.41.28:229][895]LogChaosDD: Creating Chaos Debug Draw Scene for world Level2_Dungeon
+[2025.11.25-14.41.28:234][895]LogContentBrowser: End creating deferred item NewWorld
+[2025.11.25-14.41.33:074][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.25-14.41.34:396][279]LogSlate: Window 'Save Content' being destroyed
+[2025.11.25-14.41.34:435][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.25-14.41.34:531][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.25-14.41.34:544][279]LogSavePackage: Moving output files for package: /Game/Hannah/Level1_Hospital
+[2025.11.25-14.41.34:544][279]LogSavePackage: Moving '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Level1_HospitalB461ECE149FE96A93D87089D9B3E93A7.tmp' to '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Content/Hannah/Level1_Hospital.umap'
+[2025.11.25-14.41.34:549][279]LogFileHelpers: Saving map 'Level1_Hospital' took 0.053
+[2025.11.25-14.41.34:577][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.25-14.41.34:580][279]LogSavePackage: Moving output files for package: /Game/Hannah/Level2_Dungeon
+[2025.11.25-14.41.34:580][279]LogSavePackage: Moving '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/Level2_Dungeon1FF65FA041F01BBB67A2E0B91FA5D2EC.tmp' to '../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Content/Hannah/Level2_Dungeon.umap'
+[2025.11.25-14.41.34:581][279]LogFileHelpers: Saving map 'Level2_Dungeon' took 0.032
+[2025.11.25-14.41.34:647][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 210.781 ms (total: 662.356 ms)
+[2025.11.25-14.41.34:647][279]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Hannah/Level2_Dungeon.Level2_Dungeon
+[2025.11.25-14.41.34:647][279]Cmd: MAP LOAD FILE="../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Content/Hannah/Level2_Dungeon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.25-14.41.34:703][279]LogWorld: UWorld::CleanupWorld for Level1_Hospital, bSessionEnded=true, bCleanupResources=true
+[2025.11.25-14.41.34:703][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.41.34:728][279]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.25-14.41.34:730][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.11.25-14.41.34:732][279]LogWorld: UWorld::CleanupWorld for Level2_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.25-14.41.34:733][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.25-14.41.34:762][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.25-14.41.34:787][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.25-14.41.34:788][279]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.25-14.41.34:789][279]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2_Dungeon'.
+[2025.11.25-14.41.34:789][279]LogChaosDD: Creating Chaos Debug Draw Scene for world Level2_Dungeon
+[2025.11.25-14.41.34:824][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.25-14.41.34:849][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.25-14.41.34:856][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.25-14.41.34:856][279]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2025.11.25-14.41.34:930][279]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.25-14.41.34:930][279]LogContentValidation: Enabled validators:
+[2025.11.25-14.41.34:930][279]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.25-14.41.34:930][279]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.25-14.41.34:930][279]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.25-14.41.34:930][279]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.25-14.41.34:930][279]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.25-14.41.34:930][279]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.25-14.41.34:930][279]AssetCheck: /Game/Hannah/Level2_Dungeon Validating asset
+[2025.11.25-14.41.34:958][279]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Uni/Abertayy/315/github/DES402-Jam-3/J3Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.25-14.41.35:040][281]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.25-14.41.43:896][426]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6904.994629
+[2025.11.25-14.41.44:897][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.25-14.41.44:897][429]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6905.662598, Update Interval: 315.668823
