@@ -24,6 +24,12 @@
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/UI/W_Interact.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/AC_Dialogue_Base_DiningRoom.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/NPC_DiningRoom.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Elevator.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/M_GreenGlow.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_InteractBase.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Interact_Base.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Interact_Cube.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/AC_Dialogue_BPCube.uasset",
 				"C:/Users/dzing/OneDrive/Documents/Unreal Projects/Childfree/Content/Childfree-Level.umap"
 			]
 		}
