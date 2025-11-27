@@ -1676,3 +1676,63 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.27-14.44.54:996][492]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1707.871338
 [2025.11.27-14.44.55:127][508]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.27-14.44.55:127][508]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1707.994019, Update Interval: 337.338165
+[2025.11.27-14.45.47:764][ 42]Cmd: EDIT COPY
+[2025.11.27-14.45.48:522][133]Cmd: EDIT PASTE
+[2025.11.27-14.46.54:461][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-14.46.54:563][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.27-14.46.54:687][630]LogSavePackage: Moving output files for package: /Game/Hannah/Level2_Dungeon
+[2025.11.27-14.46.54:688][630]LogSavePackage: Moving '../../../../../../Users/2202600/OneDrive - Abertay University/Documents/GitHub/Jam3/DES402-Jam-3/Childfree/Saved/Level2_DungeonEE428C4D4CA610C3EDBEEF8314C7EE1D.tmp' to '../../../../../../Users/2202600/OneDrive - Abertay University/Documents/GitHub/Jam3/DES402-Jam-3/Childfree/Content/Hannah/Level2_Dungeon.umap'
+[2025.11.27-14.46.54:707][630]LogFileHelpers: Saving map 'Level2_Dungeon' took 0.196
+[2025.11.27-14.46.54:712][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 251.187 ms (total: 573.048 ms)
+[2025.11.27-14.46.54:743][630]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.27-14.46.54:743][630]LogContentValidation: Enabled validators:
+[2025.11.27-14.46.54:743][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-14.46.54:743][630]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-14.46.54:743][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-14.46.54:743][630]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-14.46.54:743][630]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-14.46.54:743][630]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-14.46.54:743][630]AssetCheck: /Game/Hannah/Level2_Dungeon Validating asset
+[2025.11.27-14.47.21:560][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-14.47.21:631][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.11.27-14.47.21:758][446]LogSavePackage: Moving output files for package: /Game/Hannah/Level2_Dungeon
+[2025.11.27-14.47.21:759][446]LogSavePackage: Moving '../../../../../../Users/2202600/OneDrive - Abertay University/Documents/GitHub/Jam3/DES402-Jam-3/Childfree/Saved/Level2_Dungeon3037518D4AE40FC93D0ACEB559A2738B.tmp' to '../../../../../../Users/2202600/OneDrive - Abertay University/Documents/GitHub/Jam3/DES402-Jam-3/Childfree/Content/Hannah/Level2_Dungeon.umap'
+[2025.11.27-14.47.21:773][446]LogFileHelpers: Saving map 'Level2_Dungeon' took 0.181
+[2025.11.27-14.47.21:778][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 218.310 ms (total: 791.358 ms)
+[2025.11.27-14.47.21:826][446]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.27-14.47.21:826][446]LogContentValidation: Enabled validators:
+[2025.11.27-14.47.21:826][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-14.47.21:826][446]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-14.47.21:826][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-14.47.21:826][446]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-14.47.21:826][446]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-14.47.21:826][446]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-14.47.21:826][446]AssetCheck: /Game/Hannah/Level2_Dungeon Validating asset
+[2025.11.27-14.48.08:284][285]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.27-14.48.08:284][285]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.27-14.48.08:293][285]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level2_Dungeon.Level2_Dungeon:PersistentLevel.StaticMeshActor_63
+[2025.11.27-14.48.08:294][285]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level2_Dungeon.Level2_Dungeon:PersistentLevel.StaticMeshActor_63
+[2025.11.27-14.48.09:839][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.27-14.48.09:839][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.11.27-14.48.09:849][461]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level2_Dungeon.Level2_Dungeon:PersistentLevel.StaticMeshActor_64
+[2025.11.27-14.48.09:849][461]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Hannah/Level2_Dungeon.Level2_Dungeon:PersistentLevel.StaticMeshActor_64
+[2025.11.27-14.48.13:306][861]Cmd: DELETE
+[2025.11.27-14.48.13:306][861]Cmd: ACTOR DELETE
+[2025.11.27-14.48.13:349][861]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-14.48.13:367][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.27-14.48.13:370][861]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2025.11.27-14.49.12:687][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-14.49.12:776][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.27-14.49.12:892][657]LogSavePackage: Moving output files for package: /Game/Hannah/Level2_Dungeon
+[2025.11.27-14.49.12:893][657]LogSavePackage: Moving '../../../../../../Users/2202600/OneDrive - Abertay University/Documents/GitHub/Jam3/DES402-Jam-3/Childfree/Saved/Level2_Dungeon9D5CD3254F1C4098607AA5A54CABF0A2.tmp' to '../../../../../../Users/2202600/OneDrive - Abertay University/Documents/GitHub/Jam3/DES402-Jam-3/Childfree/Content/Hannah/Level2_Dungeon.umap'
+[2025.11.27-14.49.12:906][657]LogFileHelpers: Saving map 'Level2_Dungeon' took 0.163
+[2025.11.27-14.49.12:911][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 223.964 ms (total: 1.01 sec)
+[2025.11.27-14.49.12:960][657]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.27-14.49.12:960][657]LogContentValidation: Enabled validators:
+[2025.11.27-14.49.12:960][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-14.49.12:960][657]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-14.49.12:960][657]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-14.49.12:960][657]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-14.49.12:960][657]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-14.49.12:960][657]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-14.49.12:960][657]AssetCheck: /Game/Hannah/Level2_Dungeon Validating asset
