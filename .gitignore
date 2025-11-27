@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Childfree/Saved/Logs/Childfree.log
+Childfree/Saved/Logs/Childfree-backup-2025.11.27-12.50.47.log
+Childfree/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+Childfree/Saved/Config/CrashReportClient/UECC-Windows-184C91FF4E6EBCD9E37D2E8F0A7102C6/CrashReportClient.ini
+Childfree/Saved/Autosaves/PackageRestoreData.json
+Childfree/Intermediate/CachedAssetRegistryDiscovery.bin
+Childfree/Intermediate/CachedAssetRegistry_0.bin
