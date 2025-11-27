@@ -1169,3 +1169,957 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.27-12.53.39:065][ 26]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 13.740252
 [2025.11.27-12.53.39:066][ 26]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1416957435
 [2025.11.27-12.53.39:066][ 26]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13.740252, Update Interval: 353.527039
+[2025.11.27-12.54.16:535][184]LogSlate: Took 0.002240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.27-12.54.20:430][623]LogStreaming: Display: FlushAsyncLoading(393): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-12.54.20:725][627]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.11.27-12.54.20:900][637]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.11.27-12.54.21:097][650]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.11.27-12.54.21:307][664]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.11.27-12.54.21:321][665]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.11.27-12.54.27:094][317]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.11.27-12.54.27:149][318]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.11.27-12.54.27:168][319]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.11.27-12.54.27:187][320]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.11.27-12.54.28:208][378]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple
+[2025.11.27-12.54.28:208][378]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple
+[2025.11.27-12.54.28:209][378]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple as actor: SkeletalMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SkeletalMeshActor_0
+[2025.11.27-12.54.28:210][378]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple as actor: SkeletalMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SkeletalMeshActor_0
+[2025.11.27-12.54.28:816][444]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.11.27-12.54.28:817][444]LogEditorActor: Deleted 0 Actors (0.037 secs)
+[2025.11.27-12.54.28:824][444]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple
+[2025.11.27-12.54.28:824][444]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple
+[2025.11.27-12.54.28:829][444]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple as actor: SkeletalMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SkeletalMeshActor_UAID_2C58B991BB4929A602_1098244007
+[2025.11.27-12.54.28:830][444]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple as actor: SkeletalMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.SkeletalMeshActor_UAID_2C58B991BB4929A602_1098244007
+[2025.11.27-12.54.29:640][520]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.27-12.54.42:076][857]LogStreaming: Display: FlushAsyncLoading(394): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-12.54.42:078][857]LogStaticMesh: Display: Building static mesh KitchenCounter (Required Memory Estimate: 1.081226 MB)...
+[2025.11.27-12.54.42:081][857]LogStaticMesh: Adjacency [0.00s], tris: 696, UVs 1
+[2025.11.27-12.54.42:083][857]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.11.27-12.54.42:083][857]LogStaticMesh: Leaves [0.00s]
+[2025.11.27-12.54.42:105][857]LogStaticMesh: Reduce [0.02s]
+[2025.11.27-12.54.42:111][857]LogStaticMesh: Fallback [0.01s], num tris: 256
+[2025.11.27-12.54.42:117][857]LogStaticMesh: Fallback [0.01s], num tris: 256
+[2025.11.27-12.54.42:118][857]LogStaticMesh: ConstrainClusters:
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Input: 12 Clusters, 1452 Triangles and 1719 Vertices
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Output without splits: 12 Clusters, 1452 Triangles and 1719 Vertices
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Output with splits: 12 Clusters, 1452 Triangles and 1719 Vertices
+[2025.11.27-12.54.42:118][857]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 12, Slow Path Clusters: 0, 1 Material: 12, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.11.27-12.54.42:118][857]LogStaticMesh: WritePages:
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Root: GPU size: 21088 bytes. 1 Pages. 21088.000 bytes per page (64.355% utilization).
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Streaming: 0 bytes.
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Page data disk size: 15768 bytes. Fixup data size: 72 bytes.
+[2025.11.27-12.54.42:118][857]LogStaticMesh:   Total GPU size: 21088 bytes, Total disk size: 15840 bytes.
+[2025.11.27-12.54.42:118][857]LogStaticMesh: Encode [0.00s]
+[2025.11.27-12.54.42:118][857]LogStaticMesh: NaniteBuild [0.04s]
+[2025.11.27-12.54.42:134][857]LogStaticMesh: Built static mesh [0.06s] /Game/Models/Dining_Room/KitchenCounter.KitchenCounter
+[2025.11.27-12.54.42:164][858]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/KitchenCounter.KitchenCounter
+[2025.11.27-12.54.42:164][858]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/KitchenCounter.KitchenCounter
+[2025.11.27-12.54.42:164][858]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/KitchenCounter.KitchenCounter as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_1
+[2025.11.27-12.54.42:166][858]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.11.27-12.54.42:780][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.11.27-12.54.42:781][923]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.11.27-12.54.42:787][923]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/KitchenCounter.KitchenCounter
+[2025.11.27-12.54.42:787][923]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/KitchenCounter.KitchenCounter
+[2025.11.27-12.54.42:788][923]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/KitchenCounter.KitchenCounter as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB4929A602_1112206008
+[2025.11.27-12.54.43:567][  5]Cmd: DELETE
+[2025.11.27-12.54.43:567][  5]Cmd: ACTOR DELETE
+[2025.11.27-12.54.43:568][  5]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-12.54.43:581][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.11.27-12.54.43:583][  5]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.11.27-12.54.45:483][184]LogStreaming: Display: FlushAsyncLoading(395): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-12.54.45:485][184]LogStaticMesh: Display: Building static mesh SM_DiningChair (Required Memory Estimate: 2.032189 MB)...
+[2025.11.27-12.54.45:490][184]LogStaticMesh: Adjacency [0.00s], tris: 1316, UVs 1
+[2025.11.27-12.54.45:492][184]LogStaticMesh: Clustering [0.00s]. Ratio: 1.818182
+[2025.11.27-12.54.45:492][184]LogStaticMesh: Leaves [0.00s]
+[2025.11.27-12.54.45:541][184]LogStaticMesh: Reduce [0.05s]
+[2025.11.27-12.54.45:565][184]LogStaticMesh: Fallback [0.02s], num tris: 760
+[2025.11.27-12.54.45:593][187]LogStaticMesh: Fallback [0.03s], num tris: 562
+[2025.11.27-12.54.45:594][187]LogStaticMesh: ConstrainClusters:
+[2025.11.27-12.54.45:594][187]LogStaticMesh:   Input: 32 Clusters, 2828 Triangles and 2978 Vertices
+[2025.11.27-12.54.45:594][187]LogStaticMesh:   Output without splits: 32 Clusters, 2828 Triangles and 2979 Vertices
+[2025.11.27-12.54.45:594][187]LogStaticMesh:   Output with splits: 32 Clusters, 2828 Triangles and 2979 Vertices
+[2025.11.27-12.54.45:594][187]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 32, Slow Path Clusters: 0, 1 Material: 32, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.11.27-12.54.45:595][187]LogStaticMesh: WritePages:
+[2025.11.27-12.54.45:595][187]LogStaticMesh:   Root: GPU size: 32200 bytes. 1 Pages. 32200.000 bytes per page (98.267% utilization).
+[2025.11.27-12.54.45:595][187]LogStaticMesh:   Streaming: GPU size: 5852 bytes. 1 Pages (1 with relative encoding). 5852.000 bytes per page (4.465% utilization).
+[2025.11.27-12.54.45:595][187]LogStaticMesh:   Page data disk size: 33064 bytes. Fixup data size: 240 bytes.
+[2025.11.27-12.54.45:595][187]LogStaticMesh:   Total GPU size: 38052 bytes, Total disk size: 33304 bytes.
+[2025.11.27-12.54.45:595][187]LogStaticMesh: Encode [0.00s]
+[2025.11.27-12.54.45:595][187]LogStaticMesh: NaniteBuild [0.11s]
+[2025.11.27-12.54.45:628][189]LogStaticMesh: Built static mesh [0.14s] /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair
+[2025.11.27-12.54.45:791][205]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair
+[2025.11.27-12.54.45:791][205]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair
+[2025.11.27-12.54.45:793][205]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_2
+[2025.11.27-12.54.46:081][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.11.27-12.54.46:083][238]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.11.27-12.54.46:087][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair
+[2025.11.27-12.54.46:087][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair
+[2025.11.27-12.54.46:088][238]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/SM_DiningChair.SM_DiningChair as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB4929A602_1115506009
+[2025.11.27-12.54.47:168][357]Cmd: DELETE
+[2025.11.27-12.54.47:168][357]Cmd: ACTOR DELETE
+[2025.11.27-12.54.47:168][357]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-12.54.47:180][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.11.27-12.54.47:181][357]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.11.27-12.54.48:391][465]LogStreaming: Display: FlushAsyncLoading(396): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-12.54.48:394][465]LogStaticMesh: Display: Building static mesh SM_DiningTable (Required Memory Estimate: 0.965897 MB)...
+[2025.11.27-12.54.48:397][465]LogStaticMesh: Adjacency [0.00s], tris: 620, UVs 1
+[2025.11.27-12.54.48:398][465]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.11.27-12.54.48:398][465]LogStaticMesh: Leaves [0.00s]
+[2025.11.27-12.54.48:418][465]LogStaticMesh: Reduce [0.02s]
+[2025.11.27-12.54.48:424][465]LogStaticMesh: Fallback [0.01s], num tris: 256
+[2025.11.27-12.54.48:429][465]LogStaticMesh: Fallback [0.01s], num tris: 256
+[2025.11.27-12.54.48:430][465]LogStaticMesh: ConstrainClusters:
+[2025.11.27-12.54.48:430][465]LogStaticMesh:   Input: 11 Clusters, 1376 Triangles and 1736 Vertices
+[2025.11.27-12.54.48:430][465]LogStaticMesh:   Output without splits: 11 Clusters, 1376 Triangles and 1736 Vertices
+[2025.11.27-12.54.48:430][465]LogStaticMesh:   Output with splits: 11 Clusters, 1376 Triangles and 1736 Vertices
+[2025.11.27-12.54.48:430][465]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 11, Slow Path Clusters: 0, 1 Material: 11, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.11.27-12.54.48:431][465]LogStaticMesh: WritePages:
+[2025.11.27-12.54.48:431][465]LogStaticMesh:   Root: GPU size: 21484 bytes. 1 Pages. 21484.000 bytes per page (65.564% utilization).
+[2025.11.27-12.54.48:431][465]LogStaticMesh:   Streaming: 0 bytes.
+[2025.11.27-12.54.48:431][465]LogStaticMesh:   Page data disk size: 14732 bytes. Fixup data size: 72 bytes.
+[2025.11.27-12.54.48:431][465]LogStaticMesh:   Total GPU size: 21484 bytes, Total disk size: 14804 bytes.
+[2025.11.27-12.54.48:431][465]LogStaticMesh: Encode [0.00s]
+[2025.11.27-12.54.48:431][465]LogStaticMesh: NaniteBuild [0.03s]
+[2025.11.27-12.54.48:443][465]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable
+[2025.11.27-12.54.48:677][483]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable
+[2025.11.27-12.54.48:677][483]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable
+[2025.11.27-12.54.48:677][483]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_3
+[2025.11.27-12.54.48:888][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.11.27-12.54.48:890][505]LogEditorActor: Deleted 0 Actors (0.015 secs)
+[2025.11.27-12.54.48:893][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable
+[2025.11.27-12.54.48:893][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable
+[2025.11.27-12.54.48:895][505]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/SM_DiningTable.SM_DiningTable as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB4929A602_1118312010
+[2025.11.27-12.54.49:214][531]Cmd: DELETE
+[2025.11.27-12.54.49:214][531]Cmd: ACTOR DELETE
+[2025.11.27-12.54.49:215][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-12.54.49:228][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.11.27-12.54.49:229][531]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2025.11.27-12.55.00:278][202]LogStreaming: Display: FlushAsyncLoading(397): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-12.55.00:339][202]LogInterchangeEngine: Display: Interchange start importing source [E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/Jam 3/Person.fbx]
+[2025.11.27-12.55.09:049][202]LogDerivedDataCache: C:/Users/2203005/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-12.55.09:410][202]LogSlate: Window 'Import Content' being destroyed
+[2025.11.27-12.55.09:428][202]LogInterchangeEngine: [Pending] Importing
+[2025.11.27-12.55.09:563][204]LogStreaming: Display: FlushAsyncLoading(404): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-12.55.09:622][206]LogStaticMesh: Display: Building static mesh Person (Required Memory Estimate: 0.132346 MB)...
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Adjacency [0.00s], tris: 80, UVs 1
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Leaves [0.00s]
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Reduce [0.00s]
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Fallback [0.00s], num tris: 80
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Fallback [0.00s], num tris: 80
+[2025.11.27-12.55.09:624][206]LogStaticMesh: ConstrainClusters:
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Input: 1 Clusters, 80 Triangles and 84 Vertices
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Output without splits: 1 Clusters, 80 Triangles and 86 Vertices
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Output with splits: 1 Clusters, 80 Triangles and 86 Vertices
+[2025.11.27-12.55.09:624][206]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.11.27-12.55.09:624][206]LogStaticMesh: WritePages:
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Root: GPU size: 1176 bytes. 1 Pages. 1176.000 bytes per page (3.589% utilization).
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Streaming: 0 bytes.
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Page data disk size: 1320 bytes. Fixup data size: 24 bytes.
+[2025.11.27-12.55.09:624][206]LogStaticMesh:   Total GPU size: 1176 bytes, Total disk size: 1344 bytes.
+[2025.11.27-12.55.09:625][206]LogStaticMesh: Encode [0.00s]
+[2025.11.27-12.55.09:625][206]LogStaticMesh: NaniteBuild [0.00s]
+[2025.11.27-12.55.09:628][206]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.55.09:769][207]LogInterchangeEngine: Display: Interchange import completed [E:/Welcome to Morgan...Abertay/DES402/Jam 3/Person.fbx]
+[2025.11.27-12.55.09:771][207]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.11.27-12.55.09:771][207]LogInterchangeEngine: [Success] Import Done
+[2025.11.27-12.55.10:783][284]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.55.10:783][284]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.55.10:783][284]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/Person.Person as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_5
+[2025.11.27-12.55.11:653][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.27-12.55.11:654][386]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.11.27-12.55.11:658][386]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.55.11:658][386]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.55.11:660][386]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/Person.Person as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB4929A602_1141077011
+[2025.11.27-12.55.15:938][886]Cmd: DELETE
+[2025.11.27-12.55.15:938][886]Cmd: ACTOR DELETE
+[2025.11.27-12.55.15:939][886]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-12.55.15:956][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.27-12.55.15:957][886]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2025.11.27-12.56.53:186][587]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.56.53:186][587]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.56.53:186][587]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/Person.Person as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_13
+[2025.11.27-12.56.54:141][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.11.27-12.56.54:143][699]LogEditorActor: Deleted 0 Actors (0.016 secs)
+[2025.11.27-12.56.54:147][699]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.56.54:147][699]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/Person.Person
+[2025.11.27-12.56.54:148][699]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/Person.Person as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB4929A602_1243566012
+[2025.11.27-12.57.05:732][ 72]Cmd: DELETE
+[2025.11.27-12.57.05:732][ 72]Cmd: ACTOR DELETE
+[2025.11.27-12.57.05:733][ 72]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-12.57.05:744][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.27-12.57.05:745][ 72]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2025.11.27-12.57.09:664][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.27-12.57.09:776][449]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.11.27-12.57.09:782][449]LogSlate: Took 0.005468 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.11.27-12.57.10:624][449]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.27-12.57.10:653][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.11.27-12.57.10:667][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.27-12.57.10:687][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.27-12.59.32:663][ 18]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 367.661133
+[2025.11.27-12.59.33:663][ 21]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-12.59.33:663][ 21]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 368.329010, Update Interval: 308.051392
+[2025.11.27-13.03.36:879][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.27-13.03.36:934][750]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BU/ZNL906XKB1QUN3XYMC5FQJ_Auto1
+[2025.11.27-13.03.36:934][750]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/ZNL906XKB1QUN3XYMC5FQJ_Auto18A51F5084C48A192F4FE9E9597FEF816.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BU/ZNL906XKB1QUN3XYMC5FQJ_Auto1.uasset'
+[2025.11.27-13.03.36:945][750]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.082
+[2025.11.27-13.03.36:945][750]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.082
+[2025.11.27-13.04.45:151][955]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 680.144409
+[2025.11.27-13.04.46:153][958]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.04.46:154][958]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 680.810181, Update Interval: 351.930298
+[2025.11.27-13.10.43:548][ 30]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1038.539185
+[2025.11.27-13.10.44:550][ 33]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.10.44:550][ 33]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1039.205811, Update Interval: 342.338928
+[2025.11.27-13.16.40:609][101]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1395.589600
+[2025.11.27-13.16.41:609][104]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.16.41:609][104]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1396.256104, Update Interval: 309.508972
+[2025.11.27-13.22.21:338][123]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1736.314453
+[2025.11.27-13.22.22:339][126]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.22.22:339][126]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1736.981812, Update Interval: 321.292145
+[2025.11.27-13.28.18:742][195]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2093.715820
+[2025.11.27-13.28.19:744][198]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.28.19:744][198]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2094.383057, Update Interval: 305.368805
+[2025.11.27-13.34.03:477][229]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2438.440430
+[2025.11.27-13.34.04:474][232]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.34.04:474][232]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2439.106201, Update Interval: 318.953827
+[2025.11.27-13.39.57:536][291]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2792.495361
+[2025.11.27-13.39.58:535][294]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.39.58:535][294]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2793.161133, Update Interval: 304.716949
+[2025.11.27-13.45.37:260][310]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3132.215820
+[2025.11.27-13.45.38:260][313]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.45.38:260][313]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3132.882568, Update Interval: 311.470062
+[2025.11.27-13.47.46:939][114]LogStreaming: Display: FlushAsyncLoading(405): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-13.47.47:001][114]LogInterchangeEngine: Display: Interchange start importing source [E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/Jam 3/ShadeCharacter.fbx]
+[2025.11.27-13.48.00:730][114]LogSlate: Window 'Import Content' being destroyed
+[2025.11.27-13.48.00:756][114]LogInterchangeEngine: [Pending] Importing
+[2025.11.27-13.48.00:893][116]LogStreaming: Display: FlushAsyncLoading(406): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Display: Building static mesh ShadeCharacter (Required Memory Estimate: 0.096351 MB)...
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Adjacency [0.00s], tris: 56, UVs 1
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Leaves [0.00s]
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Reduce [0.00s]
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Fallback [0.00s], num tris: 56
+[2025.11.27-13.48.00:949][118]LogStaticMesh: Fallback [0.00s], num tris: 56
+[2025.11.27-13.48.00:950][118]LogStaticMesh: ConstrainClusters:
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Input: 1 Clusters, 56 Triangles and 113 Vertices
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Output without splits: 1 Clusters, 56 Triangles and 113 Vertices
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Output with splits: 1 Clusters, 56 Triangles and 113 Vertices
+[2025.11.27-13.48.00:950][118]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2025.11.27-13.48.00:950][118]LogStaticMesh: WritePages:
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Root: GPU size: 1384 bytes. 1 Pages. 1384.000 bytes per page (4.224% utilization).
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Streaming: 0 bytes.
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Page data disk size: 1668 bytes. Fixup data size: 24 bytes.
+[2025.11.27-13.48.00:950][118]LogStaticMesh:   Total GPU size: 1384 bytes, Total disk size: 1692 bytes.
+[2025.11.27-13.48.00:950][118]LogStaticMesh: Encode [0.00s]
+[2025.11.27-13.48.00:950][118]LogStaticMesh: NaniteBuild [0.00s]
+[2025.11.27-13.48.00:951][118]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter
+[2025.11.27-13.48.01:154][119]LogInterchangeEngine: Display: Interchange import completed [E:/Welcome to Morgan...Abertay/DES402/Jam 3/ShadeCharacter.fbx]
+[2025.11.27-13.48.01:157][119]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.11.27-13.48.01:157][119]LogInterchangeEngine: [Success] Import Done
+[2025.11.27-13.48.04:283][440]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter
+[2025.11.27-13.48.04:283][440]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter
+[2025.11.27-13.48.04:284][440]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_46
+[2025.11.27-13.48.05:345][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.11.27-13.48.05:346][564]LogEditorActor: Deleted 0 Actors (0.017 secs)
+[2025.11.27-13.48.05:350][564]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter
+[2025.11.27-13.48.05:350][564]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter
+[2025.11.27-13.48.05:352][564]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB492CA602_1093543541
+[2025.11.27-13.48.10:220][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.11.27-13.48.10:228][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/P6/L0O4QBYNH7P2RQTMAFNODB_Auto2
+[2025.11.27-13.48.10:228][126]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/L0O4QBYNH7P2RQTMAFNODB_Auto2EB3E429D4D8CE36220596FAC117B500C.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/P6/L0O4QBYNH7P2RQTMAFNODB_Auto2.uasset'
+[2025.11.27-13.48.10:231][126]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.032
+[2025.11.27-13.48.10:231][126]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2025.11.27-13.48.10:231][126]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Dining_Room/ShadeCharacter] ([1] browsable assets)...
+[2025.11.27-13.48.10:259][126]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Dining_Room/ShadeCharacter.ShadeCharacter]
+[2025.11.27-13.48.10:259][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Dining_Room/ShadeCharacter]
+[2025.11.27-13.48.10:270][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Dining_Room/ShadeCharacter_Auto2
+[2025.11.27-13.48.10:270][126]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/ShadeCharacter_Auto2A33CC9354BDE4F94AC7A799401C977D0.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/Autosaves/Game/Models/Dining_Room/ShadeCharacter_Auto2.uasset'
+[2025.11.27-13.48.10:272][126]LogFileHelpers: Auto-saving content packages took 0.041
+[2025.11.27-13.48.10:494][151]Cmd: SELECT NONE
+[2025.11.27-13.48.21:232][377]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.11.27-13.48.21:239][377]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.11.27-13.48.21:248][378]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.11.27-13.48.26:207][952]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Shade
+[2025.11.27-13.48.26:207][952]LogContentBrowser: End creating deferred item NewMaterial
+[2025.11.27-13.48.27:411][ 27]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Dining_Room/M_Shade.M_Shade
+[2025.11.27-13.48.27:417][ 27]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.11.27-13.48.27:421][ 27]LogStreaming: Display: FlushAsyncLoading(407): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.27-13.48.27:437][ 27]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.11.27-13.48.27:443][ 27]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.11.27-13.48.27:457][ 27]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.11.27-13.48.27:458][ 27]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.11.27-13.48.27:937][ 27]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.48.27:937][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.27:937][ 27]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.48.27:937][ 27]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.27-13.48.27:948][ 27]LogSlate: Took 0.000822 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.27-13.48.28:091][ 29]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.27-13.48.28:091][ 29]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.48.28:091][ 29]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.28:091][ 29]MaterialEditorStats: Shader Count: 3
+[2025.11.27-13.48.28:091][ 29]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.27-13.48.29:506][125]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.48.29:506][125]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.27-13.48.29:506][125]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.27-13.48.29:506][125]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.29:506][125]MaterialEditorStats: Shader Count: 4
+[2025.11.27-13.48.29:506][125]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.27-13.48.48:395][290]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.48.48:395][290]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.27-13.48.48:395][290]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.27-13.48.48:395][290]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.48:395][290]MaterialEditorStats: Shader Count: 5
+[2025.11.27-13.48.48:395][290]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2025.11.27-13.48.53:326][777]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.11.27-13.48.53:824][834]LogMaterial: Display: Material /Game/Models/Dining_Room/M_Shade.M_Shade needed to have new flag set bUsedWithNanite !
+[2025.11.27-13.48.53:824][834]LogMaterial: Display: Material /Engine/Transient.M_Shade needed to have new flag set bUsedWithNanite !
+[2025.11.27-13.48.53:863][834]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.48.53:863][834]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.53:863][834]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.48.53:863][834]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2025.11.27-13.48.53:905][835]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.48.53:905][835]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.27-13.48.53:905][835]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.27-13.48.53:905][835]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.53:905][835]MaterialEditorStats: Shader Count: 11
+[2025.11.27-13.48.53:905][835]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Base pass shader: 177 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Nanite Compute Shader: 804 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Shader Count: 17
+[2025.11.27-13.48.56:021][991]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2025.11.27-13.49.03:707][824]LogMaterialEditor: Applying material M_Shade
+[2025.11.27-13.49.03:892][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.27-13.49.04:749][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.27-13.49.08:983][265]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.49.08:983][265]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.08:983][265]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.49.08:983][265]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.09:056][269]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.09:056][269]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.09:056][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.09:056][269]MaterialEditorStats: Shader Count: 2
+[2025.11.27-13.49.09:056][269]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.10:268][385]LogMaterialEditor: Applying material M_Shade
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:416][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.10:431][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:401][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:412][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.11.27-13.49.11:434][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:434][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:447][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:477][385]MaterialEditorStats: Base pass shader: 261 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.49.11:477][385]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.11:477][385]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.11:477][385]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.11:477][385]MaterialEditorStats: Shader Count: 19
+[2025.11.27-13.49.11:477][385]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.11:477][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:493][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.11:493][385]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.16:756][936]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.16:756][936]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.16:759][936]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.49.16:759][936]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.16:759][936]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.49.16:759][936]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.16:787][939]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.16:787][939]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.16:787][939]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.16:788][939]MaterialEditorStats: Shader Count: 2
+[2025.11.27-13.49.16:788][939]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.20:126][287]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.20:126][287]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.20:128][287]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.49.20:128][287]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.20:128][287]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.49.20:128][287]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.20:155][290]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.20:155][290]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.20:155][290]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.20:156][290]MaterialEditorStats: Shader Count: 2
+[2025.11.27-13.49.20:156][290]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.21:559][432]LogMaterialEditor: Applying material M_Shade
+[2025.11.27-13.49.21:668][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:668][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:682][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.21:698][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.27-13.49.22:664][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:665][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:677][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.11.27-13.49.22:698][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:698][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:710][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:739][432]MaterialEditorStats: Base pass shader: 261 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.49.22:739][432]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.22:739][432]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.22:739][432]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.22:739][432]MaterialEditorStats: Shader Count: 19
+[2025.11.27-13.49.22:739][432]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.22:739][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:758][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.22:758][432]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.35:359][824]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.35:359][824]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.35:362][824]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.35:362][824]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.35:363][824]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.49.35:363][824]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.35:363][824]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.49.35:363][824]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.35:423][828]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.35:423][828]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.35:423][828]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.35:423][828]MaterialEditorStats: Shader Count: 5
+[2025.11.27-13.49.35:423][828]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.36:573][951]LogMaterialEditor: Applying material M_Shade
+[2025.11.27-13.49.36:681][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:681][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:695][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:711][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:880][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:893][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.11.27-13.49.36:915][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:915][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:926][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:956][951]MaterialEditorStats: Base pass shader: 261 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.49.36:956][951]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.36:956][951]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.36:956][951]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.36:956][951]MaterialEditorStats: Shader Count: 19
+[2025.11.27-13.49.36:956][951]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.36:956][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:974][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.36:974][951]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.50:031][377]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.50:031][377]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.50:035][377]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.49.50:035][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.50:035][377]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.49.50:035][377]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.50:065][380]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.50:065][380]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.50:065][380]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.50:065][380]MaterialEditorStats: Shader Count: 2
+[2025.11.27-13.49.50:065][380]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.52:268][605]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.52:268][605]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.52:271][605]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.52:271][605]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.52:272][605]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.27-13.49.52:272][605]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.52:272][605]MaterialEditorStats: Shader Count: 0
+[2025.11.27-13.49.52:272][605]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.52:335][609]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.52:335][609]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.52:335][609]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.52:335][609]MaterialEditorStats: Shader Count: 5
+[2025.11.27-13.49.52:335][609]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.53:543][739]LogMaterialEditor: Applying material M_Shade
+[2025.11.27-13.49.53:652][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:652][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:666][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.53:680][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:631][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:638][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.11.27-13.49.54:661][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:661][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:673][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:702][739]MaterialEditorStats: Base pass shader: 261 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.27-13.49.54:702][739]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.11.27-13.49.54:702][739]MaterialEditorStats: Texture samplers: 2/16
+[2025.11.27-13.49.54:702][739]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.27-13.49.54:702][739]MaterialEditorStats: Shader Count: 19
+[2025.11.27-13.49.54:702][739]MaterialEditorStats: Preshaders: 4  (4 param fetches, 7 ops)
+[2025.11.27-13.49.54:702][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:718][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.54:718][739]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.49.57:741][ 69]Cmd: SELECT NONE
+[2025.11.27-13.50.10:463][471]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.11.27-13.50.10:463][471]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.11.27-13.50.12:993][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.11.27-13.50.12:995][756]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.11.27-13.50.12:998][756]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.11.27-13.50.12:998][756]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.11.27-13.50.32:586][758]Cmd: SELECT NONE
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: ================================================
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Total job queries 673, among them cache hits 195 (28.97%), DDC hits 350 (52.01%), Duplicates 78 (11.59%)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Tracking 400 distinct input hashes that result in 292 distinct outputs (73.00%)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: RAM used: 3.78 MiB of 1.60 GiB budget. Usage: 0.23%
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Shaders Compiled: 50
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Jobs assigned 50, completed 50 (100%)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Average time worker was idle: 12.32 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Job execution time: average 0.91 s, max 2.06 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 2.14
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Shader code size: total 549.944 KiB, numShaders 50, average 10.998 KiB, min 4.379 KiB, max 19.293 KiB
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.63 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Jobs were issued in 50 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Average processing rate: 4.30 jobs/sec
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Total thread time: 31.06 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Total thread preprocess time: 7.918 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Percentage time preprocessing: 25.49%
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Effective parallelization: 2.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.222548
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 1.59 sec, max 1.60 sec, min 1.59 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 1.56 sec, max 1.58 sec, min 1.55 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    2 times, average 1.27 sec, max 1.31 sec, min 1.23 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 0.92 sec, max 1.23 sec, min 0.62 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    4 times, average 0.88 sec, max 0.90 sec, min 0.85 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.70% of total time (compiled    5 times, average 0.85 sec, max 1.24 sec, min 0.59 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 11.30% of total time (compiled    4 times, average 0.88 sec, max 0.90 sec, min 0.85 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 10.27% of total time (compiled    2 times, average 1.59 sec, max 1.60 sec, min 1.59 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 10.08% of total time (compiled    2 times, average 1.56 sec, max 1.58 sec, min 1.55 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 8.93% of total time (compiled    3 times, average 0.92 sec, max 1.23 sec, min 0.62 sec)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: === Material stats ===
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Materials Translated:    174
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: Material Cache Hits: 21 (12%)
+[2025.11.27-13.50.37:619][296]LogShaderCompilers: Display: ================================================
+[2025.11.27-13.50.38:605][400]Cmd: DELETE
+[2025.11.27-13.50.38:605][400]Cmd: ACTOR DELETE
+[2025.11.27-13.50.38:606][400]LogEditorActor: Deleted Actor: PointLight
+[2025.11.27-13.50.38:620][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.27-13.50.38:623][400]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2025.11.27-13.50.43:092][888]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2025.11.27-13.50.43:092][888]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2025.11.27-13.50.43:092][888]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_47
+[2025.11.27-13.50.43:093][888]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_47
+[2025.11.27-13.50.43:848][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.27-13.50.43:850][971]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2025.11.27-13.50.43:853][971]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2025.11.27-13.50.43:853][971]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2025.11.27-13.50.43:855][971]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB492CA602_1252046543
+[2025.11.27-13.50.43:855][971]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB492CA602_1252046543
+[2025.11.27-13.50.50:380][663]Cmd: DELETE
+[2025.11.27-13.50.50:380][663]Cmd: ACTOR DELETE
+[2025.11.27-13.50.50:380][663]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-13.50.50:395][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.11.27-13.50.50:396][663]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.11.27-13.50.50:749][696]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.27-13.50.50:749][696]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.27-13.50.50:749][696]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_48
+[2025.11.27-13.50.50:750][696]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_48
+[2025.11.27-13.50.51:649][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.27-13.50.51:652][796]LogEditorActor: Deleted 0 Actors (0.015 secs)
+[2025.11.27-13.50.51:654][796]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.27-13.50.51:655][796]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2025.11.27-13.50.51:656][796]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB492CA602_1259848544
+[2025.11.27-13.50.51:657][796]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_2C58B991BB492CA602_1259848544
+[2025.11.27-13.51.24:736][296]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3479.693848
+[2025.11.27-13.51.24:887][312]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-13.51.24:887][312]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3479.836426, Update Interval: 356.363403
+[2025.11.27-13.51.31:666][ 32]Cmd: TRANSACTION UNDO
+[2025.11.27-13.51.31:666][ 32]LogEditorTransaction: Undo Move Elements
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:706][ 32]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:930][ 36]Cmd: TRANSACTION UNDO
+[2025.11.27-13.51.31:930][ 36]LogEditorTransaction: Undo Move Elements
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:964][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.31:968][ 36]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:710][948]Cmd: TRANSACTION UNDO
+[2025.11.27-13.51.40:710][948]LogEditorTransaction: Undo Move Elements
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:755][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.40:756][948]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:098][954]Cmd: TRANSACTION UNDO
+[2025.11.27-13.51.41:098][954]LogEditorTransaction: Undo Move Elements
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:132][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.41:137][954]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:317][ 72]Cmd: TRANSACTION UNDO
+[2025.11.27-13.51.42:317][ 72]LogEditorTransaction: Undo Move Elements
+[2025.11.27-13.51.42:356][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.42:357][ 72]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.51.59:050][824]Cmd: DELETE
+[2025.11.27-13.51.59:050][824]Cmd: ACTOR DELETE
+[2025.11.27-13.51.59:052][824]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-13.51.59:067][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.27-13.51.59:070][824]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2025.11.27-13.52.26:602][705]Cmd: SELECT NONE
+[2025.11.27-13.52.29:518][ 22]Cmd: DELETE
+[2025.11.27-13.52.29:518][ 22]Cmd: ACTOR DELETE
+[2025.11.27-13.52.29:520][ 22]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-13.52.29:536][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.27-13.52.29:538][ 22]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2025.11.27-13.52.30:206][ 96]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.30:206][ 96]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.30:227][ 96]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.30:262][ 96]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.30:262][ 96]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.32:689][365]Cmd: SELECT NONE
+[2025.11.27-13.52.36:322][783]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.36:322][783]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.36:341][783]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.36:378][783]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.36:378][783]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.52.47:624][958]Cmd: SELECT NONE
+[2025.11.27-13.53.02:127][188]LogSlate: Window 'M_Shade' being destroyed
+[2025.11.27-13.53.02:140][188]LogSlate: Window 'M_Shade' being destroyed
+[2025.11.27-13.53.02:168][188]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.11.27-13.53.02:168][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.27-13.53.02:190][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.11.27-13.53.27:541][672]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.53.27:541][672]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.53.27:559][672]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.53.27:612][672]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.53.27:612][672]LogStaticMesh: Warning: Invalid material [M_Shade] used on Nanite static mesh [ShadeCharacter]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.11.27-13.53.35:491][593]Cmd: DELETE
+[2025.11.27-13.53.35:491][593]Cmd: ACTOR DELETE
+[2025.11.27-13.53.35:492][593]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.27-13.53.35:505][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.27-13.53.35:506][593]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: ================================================
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Total job queries 693, among them cache hits 201 (29.00%), DDC hits 359 (51.80%), Duplicates 78 (11.26%)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Tracking 414 distinct input hashes that result in 303 distinct outputs (73.19%)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: RAM used: 3.85 MiB of 1.60 GiB budget. Usage: 0.23%
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Shaders Compiled: 55
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Jobs assigned 55, completed 55 (100%)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Average time worker was idle: 17.47 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Job execution time: average 0.89 s, max 2.06 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Job life time (pending + execution): average 0.97 s, max 2.14
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Shader code size: total 584.632 KiB, numShaders 55, average 10.629 KiB, min 4.379 KiB, max 19.293 KiB
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.48 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Jobs were issued in 55 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Average processing rate: 4.41 jobs/sec
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Total thread time: 32.691 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Total thread preprocess time: 8.129 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Percentage time preprocessing: 24.87%
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Effective parallelization: 2.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.218250
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 1.59 sec, max 1.60 sec, min 1.59 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 1.56 sec, max 1.58 sec, min 1.55 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    2 times, average 1.27 sec, max 1.31 sec, min 1.23 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 0.92 sec, max 1.23 sec, min 0.62 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    4 times, average 0.88 sec, max 0.90 sec, min 0.85 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.01% of total time (compiled    5 times, average 0.85 sec, max 1.24 sec, min 0.59 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 10.74% of total time (compiled    4 times, average 0.88 sec, max 0.90 sec, min 0.85 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 9.75% of total time (compiled    2 times, average 1.59 sec, max 1.60 sec, min 1.59 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 9.57% of total time (compiled    2 times, average 1.56 sec, max 1.58 sec, min 1.55 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.87% of total time (compiled    9 times, average 0.32 sec, max 0.39 sec, min 0.26 sec)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: === Material stats ===
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Materials Translated:    174
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Material Translation Only: 0.03 s (32%)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: Material Cache Hits: 21 (12%)
+[2025.11.27-13.53.37:888][758]LogShaderCompilers: Display: ================================================
+[2025.11.27-13.54.26:371][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-13.54.26:450][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.11.27-13.54.26:465][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.27-13.54.26:476][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.11.27-13.54.26:485][719]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BU/ZNL906XKB1QUN3XYMC5FQJ
+[2025.11.27-13.54.26:485][719]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/ZNL906XKB1QUN3XYMC5FQJFEFD825841E58245C785648BF4B6FBE0.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BU/ZNL906XKB1QUN3XYMC5FQJ.uasset'
+[2025.11.27-13.54.26:495][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.853 ms
+[2025.11.27-13.54.26:526][719]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.27-13.54.26:526][719]LogContentValidation: Enabled validators:
+[2025.11.27-13.54.26:526][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-13.54.26:526][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-13.54.26:526][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-13.54.26:526][719]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-13.54.26:526][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-13.54.26:526][719]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-13.54.26:526][719]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2025.11.27-13.54.26:554][719]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.27-13.54.30:109][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.27-13.54.30:113][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-13.54.30:163][120]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Dining_Room/ShadeCharacter] ([1] browsable assets)...
+[2025.11.27-13.54.30:163][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Dining_Room/ShadeCharacter]
+[2025.11.27-13.54.30:172][120]LogSavePackage: Moving output files for package: /Game/Models/Dining_Room/ShadeCharacter
+[2025.11.27-13.54.30:172][120]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/ShadeCharacterFADA05954AC8A4B884D47487FA78569B.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/Dining_Room/ShadeCharacter.uasset'
+[2025.11.27-13.54.30:182][120]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Dining_Room/M_Shade] ([1] browsable assets)...
+[2025.11.27-13.54.30:219][120]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Dining_Room/M_Shade.M_Shade]
+[2025.11.27-13.54.30:219][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Dining_Room/M_Shade]
+[2025.11.27-13.54.30:225][120]LogSavePackage: Moving output files for package: /Game/Models/Dining_Room/M_Shade
+[2025.11.27-13.54.30:225][120]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/M_ShadeFED2943847DA92BD6B6FDCBA95B42193.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/Dining_Room/M_Shade.uasset'
+[2025.11.27-13.54.30:231][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.361 ms (total: 243.214 ms)
+[2025.11.27-13.54.30:275][120]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.27-13.54.30:275][120]LogContentValidation: Enabled validators:
+[2025.11.27-13.54.30:275][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-13.54.30:275][120]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-13.54.30:275][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-13.54.30:275][120]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-13.54.30:275][120]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-13.54.30:275][120]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-13.54.30:275][120]AssetCheck: /Game/Models/Dining_Room/ShadeCharacter Validating asset
+[2025.11.27-13.54.30:276][120]AssetCheck: /Game/Models/Dining_Room/M_Shade Validating asset
+[2025.11.27-13.54.30:326][120]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.27-13.54.51:585][472]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-13.54.51:585][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/ShadeCharacter] ([1] browsable assets)...
+[2025.11.27-13.54.51:585][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/ShadeCharacter]
+[2025.11.27-13.54.51:585][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/ShadeCharacter" FILE="E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/ShadeCharacter.uasset" SILENT=true
+[2025.11.27-13.54.51:878][472]LogSavePackage: Moving output files for package: /Game/Models/ShadeCharacter
+[2025.11.27-13.54.51:878][472]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/ShadeCharacter8568152C420AACC9CFE5CCA4B190620B.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/ShadeCharacter.uasset'
+[2025.11.27-13.54.51:881][472]LogFileHelpers: InternalPromptForCheckoutAndSave took 295.639 ms (total: 538.854 ms)
+[2025.11.27-13.54.51:918][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.27-13.54.51:931][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.27-13.54.51:943][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.27-13.54.51:960][472]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.11.27-13.54.51:960][472]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.27-13.54.51:960][472]LogContentValidation: Enabled validators:
+[2025.11.27-13.54.51:960][472]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-13.54.51:960][472]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-13.54.51:960][472]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-13.54.51:960][472]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-13.54.51:960][472]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-13.54.51:960][472]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-13.54.51:961][472]AssetCheck: /Game/Models/ShadeCharacter Validating asset
+[2025.11.27-13.54.51:974][472]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.27-13.54.55:781][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-13.54.55:781][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/M_Shade] ([1] browsable assets)...
+[2025.11.27-13.54.55:781][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/M_Shade]
+[2025.11.27-13.54.55:781][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/M_Shade" FILE="E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/M_Shade.uasset" SILENT=true
+[2025.11.27-13.54.55:789][810]LogSavePackage: Moving output files for package: /Game/Models/M_Shade
+[2025.11.27-13.54.55:789][810]LogSavePackage: Moving 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/M_Shade405F07D94109C86BD0606EAAF460CAAC.tmp' to 'E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/M_Shade.uasset'
+[2025.11.27-13.54.55:791][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.272 ms (total: 548.126 ms)
+[2025.11.27-13.54.55:826][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.11.27-13.54.55:839][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.11.27-13.54.55:851][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.27-13.54.55:870][810]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.11.27-13.54.55:870][810]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.27-13.54.55:870][810]LogContentValidation: Enabled validators:
+[2025.11.27-13.54.55:870][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-13.54.55:870][810]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-13.54.55:870][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-13.54.55:870][810]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-13.54.55:870][810]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-13.54.55:870][810]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-13.54.55:870][810]AssetCheck: /Game/Models/M_Shade Validating asset
+[2025.11.27-13.54.55:880][810]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.27-13.55.09:098][247]LogDerivedDataCache: C:/Users/2203005/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
