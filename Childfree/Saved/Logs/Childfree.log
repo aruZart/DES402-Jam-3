@@ -1277,6 +1277,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.03-10.09.13:673][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2025.12.03-10.09.13:682][106]Cmd: MAP CHECKDEP NOCLEARLOG
 [2025.12.03-10.09.13:682][106]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.064ms to complete.
+<<<<<<< Updated upstream
 [2025.12.03-10.10.52:367][955]LogDerivedDataCache: C:/Users/dzing/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.068 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 173 files in 347 folders with total size 2 MiB.
 [2025.12.03-10.12.05:188][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
 [2025.12.03-10.12.05:241][173]LogStall: Shutdown...
@@ -1331,3 +1332,5 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.03-10.12.10:141][174]LogD3D12RHI: ~FD3D12DynamicRHI
 [2025.12.03-10.12.10:188][174]LogExit: Exiting.
 [2025.12.03-10.12.10:204][174]Log file closed, 12/03/25 10:12:10
+=======
+>>>>>>> Stashed changes
