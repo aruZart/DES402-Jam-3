@@ -2277,3 +2277,349 @@ Sampler Limit: 32
 [2025.11.27-15.04.23:436][242]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
 [2025.11.27-15.04.23:442][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
 [2025.11.27-15.04.23:496][243]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: ================================================
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Total job queries 809, among them cache hits 269 (33.25%), DDC hits 340 (42.03%), Duplicates 87 (10.75%)
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Tracking 453 distinct input hashes that result in 316 distinct outputs (69.76%)
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: RAM used: 4.02 MiB of 1.60 GiB budget. Usage: 0.25%
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Shaders Compiled: 113
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Jobs assigned 113, completed 113 (100%)
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Average time worker was idle: 55.87 s
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 1.72 s
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Job execution time: average 1.59 s, max 5.43 s
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Job life time (pending + execution): average 1.66 s, max 5.50
+[2025.11.27-15.06.59:934][908]LogShaderCompilers: Display: Shader code size: total 1.317 MiB, numShaders 116, average 11.636 KiB, min 1.203 KiB, max 26.617 KiB
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 21.93 s
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Jobs were issued in 95 batches (only local compilation was used), average 1.19 jobs/batch
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Average processing rate: 5.15 jobs/sec
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Total thread time: 82.516 s
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Total thread preprocess time: 8.9 s
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Percentage time preprocessing: 10.79%
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Effective parallelization: 3.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.313586
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.26 sec, max 2.26 sec, min 2.26 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.02 sec, max 2.02 sec, min 2.02 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 1.73 sec, max 1.73 sec, min 1.73 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   26 times, average 1.43 sec, max 2.21 sec, min 0.00 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 1.02 sec, max 1.50 sec, min 0.54 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 45.16% of total time (compiled   26 times, average 1.43 sec, max 2.21 sec, min 0.00 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.71% of total time (compiled   13 times, average 0.87 sec, max 1.57 sec, min 0.66 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.75% of total time (compiled   18 times, average 0.45 sec, max 0.56 sec, min 0.33 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                                 FLumenCardPS - 3.25% of total time (compiled    9 times, average 0.30 sec, max 0.35 sec, min 0.27 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.14% of total time (compiled    9 times, average 0.29 sec, max 0.35 sec, min 0.25 sec)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: === Material stats ===
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Materials Translated:    219
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Material Translation Only: 0.04 s (47%)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: Material Cache Hits: 40 (18%)
+[2025.11.27-15.06.59:935][908]LogShaderCompilers: Display: ================================================
+[2025.11.27-15.09.42:288][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1065.275146
+[2025.11.27-15.09.43:289][398]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.09.43:289][398]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1065.942017, Update Interval: 338.676727
+[2025.11.27-15.12.35:371][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.27-15.12.35:383][914]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY_Auto2
+[2025.11.27-15.12.35:383][914]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/TTBKQTM7H2HDLWB3T16ZLY_Auto2C430A652464277F75EBD92AA13F5F3F4.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY_Auto2.uasset'
+[2025.11.27-15.12.35:390][914]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/87/EXWNPURBZREY00ZIA8R281_Auto2
+[2025.11.27-15.12.35:390][914]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/EXWNPURBZREY00ZIA8R281_Auto2B44124494E6CEC3EAD80D79DF2265EF6.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/87/EXWNPURBZREY00ZIA8R281_Auto2.uasset'
+[2025.11.27-15.12.35:391][914]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.035
+[2025.11.27-15.12.35:391][914]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2025.11.27-15.12.35:391][914]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/testmat] ([1] browsable assets)...
+[2025.11.27-15.12.35:391][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/testmat]
+[2025.11.27-15.12.35:391][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/testmat" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Autosaves/Game/Materials/testmat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.11.27-15.12.35:397][914]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/testmat_Auto2
+[2025.11.27-15.12.35:397][914]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/testmat_Auto2A22837284AC0A584E742FBA3991ACDEB.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Autosaves/Game/Materials/testmat_Auto2.uasset'
+[2025.11.27-15.12.35:398][914]LogFileHelpers: Auto-saving content packages took 0.007
+[2025.11.27-15.15.37:669][461]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1420.656250
+[2025.11.27-15.15.38:668][464]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.15.38:668][464]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1421.322998, Update Interval: 330.002747
+[2025.11.27-15.21.34:697][532]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1777.684814
+[2025.11.27-15.21.35:698][535]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.21.35:698][535]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1778.352051, Update Interval: 348.143555
+[2025.11.27-15.28.05:387][704]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2168.371826
+[2025.11.27-15.28.06:388][707]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.28.06:388][707]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2169.038574, Update Interval: 340.632355
+[2025.11.27-15.34.20:146][820]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2543.123535
+[2025.11.27-15.34.21:146][823]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.34.21:146][823]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2543.790039, Update Interval: 326.254456
+[2025.11.27-15.40.34:513][943]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2917.485840
+[2025.11.27-15.40.35:513][946]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.40.35:513][946]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2918.152344, Update Interval: 348.033691
+[2025.11.27-15.47.16:548][149]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3319.517090
+[2025.11.27-15.47.17:548][152]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.47.17:548][152]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3320.183838, Update Interval: 333.664978
+[2025.11.27-15.53.41:242][303]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3704.207520
+[2025.11.27-15.53.42:243][306]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.53.42:243][306]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3704.874023, Update Interval: 311.777710
+[2025.11.27-15.53.52:868][338]LogDerivedDataCache: C:/Users/trona/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 1 empty folders. Scanned 0 files in 2 folders with total size 0 MiB.
+[2025.11.27-15.59.42:275][386]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4065.233398
+[2025.11.27-15.59.43:275][389]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-15.59.43:275][389]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4065.900391, Update Interval: 309.393585
+[2025.11.27-16.05.26:296][418]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4409.305664
+[2025.11.27-16.05.27:296][421]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.05.27:296][421]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4409.972656, Update Interval: 308.866241
+[2025.11.27-16.11.16:667][469]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4759.729492
+[2025.11.27-16.11.17:666][472]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.11.17:666][472]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4760.395996, Update Interval: 338.980682
+[2025.11.27-16.17.31:701][594]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5134.808105
+[2025.11.27-16.17.32:701][597]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.17.32:701][597]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5135.474609, Update Interval: 322.174744
+[2025.11.27-16.23.45:391][715]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5508.551758
+[2025.11.27-16.23.46:391][718]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.23.46:391][718]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5509.218262, Update Interval: 325.576965
+[2025.11.27-16.29.45:417][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5868.623047
+[2025.11.27-16.29.46:416][798]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.29.46:416][798]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5869.289551, Update Interval: 355.284882
+[2025.11.27-16.36.18:775][975]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6262.041992
+[2025.11.27-16.36.19:775][978]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.36.19:775][978]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6262.708984, Update Interval: 318.342224
+[2025.11.27-16.42.12:130][ 35]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6615.447754
+[2025.11.27-16.42.13:131][ 38]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.42.13:131][ 38]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6616.114746, Update Interval: 343.042084
+[2025.11.27-16.48.53:168][238]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7016.541992
+[2025.11.27-16.48.54:167][241]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.48.54:167][241]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7017.208984, Update Interval: 322.524475
+[2025.11.27-16.53.52:869][138]LogDerivedDataCache: C:/Users/trona/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-16.54.59:531][337]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7382.964844
+[2025.11.27-16.55.00:532][340]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-16.55.00:532][340]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7383.631836, Update Interval: 317.241730
+[2025.11.27-17.01.13:235][458]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7756.727051
+[2025.11.27-17.01.14:236][461]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.01.14:236][461]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7757.394043, Update Interval: 305.579407
+[2025.11.27-17.07.06:259][517]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8109.809082
+[2025.11.27-17.07.07:259][520]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.07.07:259][520]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8110.476074, Update Interval: 356.802887
+[2025.11.27-17.14.02:626][766]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8525.958008
+[2025.11.27-17.14.03:626][769]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.14.03:626][769]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8526.624023, Update Interval: 303.744629
+[2025.11.27-17.19.51:984][814]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8875.064453
+[2025.11.27-17.19.52:984][817]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.19.52:984][817]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8875.730469, Update Interval: 301.796326
+[2025.11.27-17.25.54:350][901]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9237.178711
+[2025.11.27-17.25.55:349][904]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.25.55:349][904]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9237.844727, Update Interval: 323.392426
+[2025.11.27-17.32.08:718][ 24]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9611.301758
+[2025.11.27-17.32.09:718][ 27]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.32.09:718][ 27]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9611.968750, Update Interval: 320.746490
+[2025.11.27-17.38.07:741][101]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9970.051758
+[2025.11.27-17.38.08:742][104]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.38.08:742][104]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9970.718750, Update Interval: 301.582092
+[2025.11.27-17.43.43:107][107]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10305.177734
+[2025.11.27-17.43.44:107][110]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.43.44:107][110]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10305.843750, Update Interval: 330.519104
+[2025.11.27-17.49.47:804][201]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10669.620117
+[2025.11.27-17.49.48:804][204]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.49.48:804][204]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10670.286133, Update Interval: 300.155640
+[2025.11.27-17.53.52:869][937]LogDerivedDataCache: C:/Users/trona/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-17.55.22:832][206]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11004.412109
+[2025.11.27-17.55.23:831][209]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-17.55.23:831][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11005.079102, Update Interval: 318.210388
+[2025.11.27-18.01.41:530][342]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11382.829102
+[2025.11.27-18.01.42:530][345]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.01.42:530][345]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11383.495117, Update Interval: 357.767883
+[2025.11.27-18.08.37:237][589]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11798.232422
+[2025.11.27-18.08.38:238][592]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.08.38:238][592]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11798.898438, Update Interval: 344.422729
+[2025.11.27-18.15.02:601][745]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12183.330078
+[2025.11.27-18.15.03:601][748]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.15.03:601][748]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12183.996094, Update Interval: 354.213684
+[2025.11.27-18.21.51:298][971]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12591.737305
+[2025.11.27-18.21.52:298][974]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.21.52:298][974]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12592.403320, Update Interval: 357.244171
+[2025.11.27-18.28.20:662][139]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12980.838867
+[2025.11.27-18.28.21:662][142]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.28.21:662][142]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12981.504883, Update Interval: 331.452972
+[2025.11.27-18.34.35:024][262]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13354.933594
+[2025.11.27-18.34.36:023][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.34.36:023][265]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13355.599609, Update Interval: 336.384155
+[2025.11.27-18.40.43:388][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13723.041992
+[2025.11.27-18.40.44:388][370]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.40.44:388][370]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13723.708984, Update Interval: 305.669128
+[2025.11.27-18.46.48:415][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14087.793945
+[2025.11.27-18.46.49:414][465]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.46.49:414][465]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14088.459961, Update Interval: 356.779083
+[2025.11.27-18.53.24:781][651]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14483.881836
+[2025.11.27-18.53.25:781][654]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.53.25:781][654]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14484.547852, Update Interval: 314.771576
+[2025.11.27-18.53.52:870][736]LogDerivedDataCache: C:/Users/trona/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-18.59.32:152][753]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14850.990234
+[2025.11.27-18.59.33:152][756]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-18.59.33:152][756]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14851.656250, Update Interval: 311.063568
+[2025.11.27-19.05.15:846][784]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15194.448242
+[2025.11.27-19.05.16:846][787]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.05.16:846][787]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15195.114258, Update Interval: 335.695679
+[2025.11.27-19.11.38:218][931]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15576.559570
+[2025.11.27-19.11.39:218][934]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.11.39:218][934]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15577.226562, Update Interval: 320.307007
+[2025.11.27-19.17.49:903][ 46]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15947.973633
+[2025.11.27-19.17.50:903][ 49]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.17.50:903][ 49]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15948.639648, Update Interval: 335.882446
+[2025.11.27-19.24.22:595][224]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16340.375977
+[2025.11.27-19.24.23:596][227]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.24.23:596][227]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16341.041992, Update Interval: 312.330688
+[2025.11.27-19.30.23:297][306]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16701.628906
+[2025.11.27-19.30.24:296][309]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.30.24:296][309]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16702.296875, Update Interval: 333.318878
+[2025.11.27-19.36.44:006][448]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17083.017578
+[2025.11.27-19.36.45:007][451]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.36.45:007][451]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17083.685547, Update Interval: 337.054352
+[2025.11.27-19.43.20:038][636]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17479.783203
+[2025.11.27-19.43.21:039][639]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.43.21:039][639]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17480.451172, Update Interval: 309.505310
+[2025.11.27-19.49.20:066][716]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17840.472656
+[2025.11.27-19.49.21:067][719]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.49.21:067][719]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17841.140625, Update Interval: 338.182312
+[2025.11.27-19.53.52:871][535]LogDerivedDataCache: C:/Users/trona/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.27-19.55.46:764][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18227.882812
+[2025.11.27-19.55.47:764][879]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-19.55.47:764][879]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18228.550781, Update Interval: 329.724426
+[2025.11.27-20.02.02:138][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18603.937500
+[2025.11.27-20.02.03:138][  5]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-20.02.03:138][  5]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18604.605469, Update Interval: 350.646698
+[2025.11.27-20.08.45:839][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19008.386719
+[2025.11.27-20.08.46:838][216]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-20.08.46:838][216]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19009.054688, Update Interval: 354.988251
+[2025.11.27-20.15.22:207][402]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19405.472656
+[2025.11.27-20.15.23:207][405]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-20.15.23:207][405]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19406.140625, Update Interval: 323.161713
+[2025.11.27-20.21.44:241][548]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19788.207031
+[2025.11.27-20.21.45:241][551]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.27-20.21.45:241][551]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19788.875000, Update Interval: 340.050049
+[2025.11.27-20.27.49:985][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.11.27-20.27.51:237][625]LogSlate: Window 'Save Content' being destroyed
+[2025.11.27-20.27.51:247][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.27-20.27.51:286][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts] ([1] browsable assets)...
+[2025.11.27-20.27.51:286][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts]
+[2025.11.27-20.27.51:286][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts.uasset" SILENT=true
+[2025.11.27-20.27.51:297][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts
+[2025.11.27-20.27.51:297][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts24868F664E36525436D939B5FDE6EE7B.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts.uasset'
+[2025.11.27-20.27.51:298][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST] ([1] browsable assets)...
+[2025.11.27-20.27.51:298][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST]
+[2025.11.27-20.27.51:298][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST.uasset" SILENT=true
+[2025.11.27-20.27.51:306][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST
+[2025.11.27-20.27.51:306][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST17C66C3345AAA8E00A51FEB5ACED0CDD.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST.uasset'
+[2025.11.27-20.27.51:307][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST1] ([1] browsable assets)...
+[2025.11.27-20.27.51:307][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST1]
+[2025.11.27-20.27.51:307][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST1" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST1.uasset" SILENT=true
+[2025.11.27-20.27.51:313][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST1
+[2025.11.27-20.27.51:313][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST1A2AB05E64D5DFBBF3961478461A2EFA3.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST1.uasset'
+[2025.11.27-20.27.51:315][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST_ambientocclusion] ([1] browsable assets)...
+[2025.11.27-20.27.51:315][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST_ambientocclusion]
+[2025.11.27-20.27.51:332][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST_ambientocclusion
+[2025.11.27-20.27.51:333][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST_ambientocclusi84DBDFDF40BE21499287419693BEDCF3.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_ambientocclusion.uasset'
+[2025.11.27-20.27.51:334][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST_basecolor] ([1] browsable assets)...
+[2025.11.27-20.27.51:334][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST_basecolor]
+[2025.11.27-20.27.51:334][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST_basecolor" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_basecolor.uasset" SILENT=true
+[2025.11.27-20.27.51:352][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST_basecolor
+[2025.11.27-20.27.51:352][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST_basecolor64F18763417986B05CA1588990103330.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_basecolor.uasset'
+[2025.11.27-20.27.51:354][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST_height] ([1] browsable assets)...
+[2025.11.27-20.27.51:354][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST_height]
+[2025.11.27-20.27.51:354][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST_height" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_height.uasset" SILENT=true
+[2025.11.27-20.27.51:368][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST_height
+[2025.11.27-20.27.51:368][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST_height8A629AD248A7ADFE17380DA8A74C42F3.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_height.uasset'
+[2025.11.27-20.27.51:370][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST_metallic] ([1] browsable assets)...
+[2025.11.27-20.27.51:370][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST_metallic]
+[2025.11.27-20.27.51:370][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST_metallic" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_metallic.uasset" SILENT=true
+[2025.11.27-20.27.51:382][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST_metallic
+[2025.11.27-20.27.51:382][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST_metallic9390BC384C068B26AFCF8DA5189F6248.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_metallic.uasset'
+[2025.11.27-20.27.51:384][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST_normal] ([1] browsable assets)...
+[2025.11.27-20.27.51:384][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST_normal]
+[2025.11.27-20.27.51:384][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST_normal" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_normal.uasset" SILENT=true
+[2025.11.27-20.27.51:400][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST_normal
+[2025.11.27-20.27.51:400][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST_normal88A7595D44D7E6F7230605917EB90168.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_normal.uasset'
+[2025.11.27-20.27.51:402][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Entrailsguts_INST_roughness] ([1] browsable assets)...
+[2025.11.27-20.27.51:402][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Entrailsguts_INST_roughness]
+[2025.11.27-20.27.51:402][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Entrailsguts_INST_roughness" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_roughness.uasset" SILENT=true
+[2025.11.27-20.27.51:417][625]LogSavePackage: Moving output files for package: /Game/Materials/Entrailsguts_INST_roughness
+[2025.11.27-20.27.51:417][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Entrailsguts_INST_roughness9A65FEB345A9FFA26317519528918177.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Entrailsguts_INST_roughness.uasset'
+[2025.11.27-20.27.51:424][625]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY
+[2025.11.27-20.27.51:425][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/TTBKQTM7H2HDLWB3T16ZLY58D2329542DA4464561745A0B0DE9FA2.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY.uasset'
+[2025.11.27-20.27.51:433][625]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/87/EXWNPURBZREY00ZIA8R281
+[2025.11.27-20.27.51:433][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/EXWNPURBZREY00ZIA8R281B4B82E10477714C2A68DDEB01E6FE70F.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/87/EXWNPURBZREY00ZIA8R281.uasset'
+[2025.11.27-20.27.51:434][625]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/testmat] ([1] browsable assets)...
+[2025.11.27-20.27.51:434][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/testmat]
+[2025.11.27-20.27.51:434][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/testmat" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/testmat.uasset" SILENT=true
+[2025.11.27-20.27.51:441][625]LogSavePackage: Moving output files for package: /Game/Materials/testmat
+[2025.11.27-20.27.51:442][625]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/testmatC3D44A95450562F769EA7096DED0E28E.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/testmat.uasset'
+[2025.11.27-20.27.51:451][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 203.886 ms (total: 343.748 ms)
+[2025.11.27-20.27.51:494][625]LogStall: Shutdown...
+[2025.11.27-20.27.51:494][625]LogStall: Shutdown complete.
+[2025.11.27-20.27.51:529][625]LogSlate: Window 'Childfree - Unreal Editor' being destroyed
+[2025.11.27-20.27.51:664][625]LogContentValidation: Display: Starting to validate 12 assets
+[2025.11.27-20.27.51:664][625]LogContentValidation: Enabled validators:
+[2025.11.27-20.27.51:664][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.27-20.27.51:664][625]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.27-20.27.51:664][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.27-20.27.51:664][625]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.27-20.27.51:664][625]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.27-20.27.51:664][625]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST1 Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST_ambientocclusion Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST_basecolor Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST_height Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST_metallic Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST_normal Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/Materials/Entrailsguts_INST_roughness Validating asset
+[2025.11.27-20.27.51:664][625]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2025.11.27-20.27.51:665][625]AssetCheck: /Game/Materials/testmat Validating asset
+[2025.11.27-20.27.51:669][625]Cmd: QUIT_EDITOR
+[2025.11.27-20.27.51:669][625]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.27-20.27.51:670][625]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.27-20.27.51:674][626]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.27-20.27.51:674][626]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.27-20.27.51:675][626]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.27-20.27.51:675][626]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.27-20.27.51:675][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.27-20.27.51:675][626]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2025.11.27-20.27.51:683][626]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.27-20.27.51:683][626]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.11.27-20.27.51:684][626]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.27-20.27.51:700][626]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.27-20.27.51:701][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.27-20.27.51:701][626]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.27-20.27.51:701][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.27-20.27.51:701][626]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.11.27-20.27.51:701][626]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.27-20.27.51:703][626]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.11.27-20.27.51:713][626]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.27-20.27.51:713][626]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.27-20.27.51:713][626]LogAudio: Display: Audio Device unregistered from world 'Lvl_FirstPerson'.
+[2025.11.27-20.27.51:713][626]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.27-20.27.51:713][626]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.11.27-20.27.51:715][626]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.11.27-20.27.51:722][626]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.27-20.27.51:722][626]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.27-20.27.51:723][626]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.11.27-20.27.51:726][626]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.27-20.27.51:729][626]LogExit: Preparing to exit.
+[2025.11.27-20.27.51:768][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.27-20.27.52:556][626]LogEditorDataStorage: Deinitializing
+[2025.11.27-20.27.52:691][626]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.27-20.27.52:703][626]LogExit: Editor shut down
+[2025.11.27-20.27.52:705][626]LogExit: Transaction tracking system shut down
+[2025.11.27-20.27.52:823][626]LogExit: Object subsystem successfully closed.
+[2025.11.27-20.27.52:908][626]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.27-20.27.53:006][626]LogMemoryProfiler: Shutdown
+[2025.11.27-20.27.53:006][626]LogNetworkingProfiler: Shutdown
+[2025.11.27-20.27.53:006][626]LoadingProfiler: Shutdown
+[2025.11.27-20.27.53:006][626]LogTimingProfiler: Shutdown
+[2025.11.27-20.27.53:006][626]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.27-20.27.53:006][626]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.27-20.27.53:324][626]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.27-20.27.53:325][626]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.27-20.27.53:325][626]RenderDocPlugin: plugin has been unloaded.
+[2025.11.27-20.27.53:342][626]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.27-20.27.53:342][626]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9D266CA9-47CD-3E3C-B7A7-98A045902F10%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=e43d0b5c4b75e766f457e483ffa167f4%7C61074214e9ef4869a81fa800dda6ce26%7C76d57e36-b2db-4c59-b96e-32fc8967039e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.27-20.27.53:888][626]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.27-20.27.53:892][626]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.27-20.27.53:892][626]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.27-20.27.53:892][626]LogPakFile: Destroying PakPlatformFile
+[2025.11.27-20.27.54:340][626]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.27-20.27.54:378][626]LogExit: Exiting.
+[2025.11.27-20.27.54:398][626]Log file closed, 11/27/25 20:27:54
