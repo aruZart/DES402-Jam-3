@@ -26,10 +26,21 @@
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/NPC_DiningRoom.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Elevator.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/M_GreenGlow.uasset",
-				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_InteractBase.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Interact_Base.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Interact_Cube.uasset",
 				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/AC_Dialogue_BPCube.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/NPC_Aunt.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/NPC_Uncle.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Hannah/Dining_Room.umap",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Hannah/Level1_Hospital.umap",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_Interact_Placeholder.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_DoNotTriggerDialogue.uasset",
+				"E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/BU/ZNL906XKB1QUN3XYMC5FQJ.uasset",
+				"E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/Dining_Room/ShadeCharacter.uasset",
+				"E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/Dining_Room/M_Shade.uasset",
+				"E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/ShadeCharacter.uasset",
+				"E:/Welcome to Morgan's Library (Circa 26.10.25)/Abertay/DES402/DES402-Jam-3/Childfree/Content/Models/M_Shade.uasset",
+				"C:/Users/dzing/OneDrive/Documents/GitHub/DES402-Jam-3/Childfree/Content/Blueprints/BP_InteractBase.uasset",
 				"C:/Users/dzing/OneDrive/Documents/Unreal Projects/Childfree/Content/Childfree-Level.umap"
 			]
 		}
