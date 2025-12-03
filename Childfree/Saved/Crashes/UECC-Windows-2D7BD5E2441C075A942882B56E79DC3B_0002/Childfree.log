@@ -2523,15 +2523,3 @@ Script Stack (0 frames) :
 [2025.12.03-14.06.28:168][979]LogOutputDevice: Error: [Callstack] 0x00007ffdf482e8d7 KERNEL32.DLL!UnknownFunction []
 [2025.12.03-14.06.28:168][979]LogOutputDevice: Error: [Callstack] 0x00007ffdf536c53c ntdll.dll!UnknownFunction []
 [2025.12.03-14.06.28:168][979]LogOutputDevice: Error: 
-[2025.12.03-14.06.28:178][979]LogStats:                SubmitErrorReport -  0.000 s
-[2025.12.03-14.06.31:334][979]LogStats:                    SendNewReport -  3.157 s
-[2025.12.03-14.06.31:334][979]LogStats:             FDebug::EnsureFailed -  3.240 s
-[2025.12.03-14.06.31:334][979]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.31:334][979]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.31:335][979]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.31:346][979]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.31:385][979]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.32:837][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.32:845][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.32:851][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
-[2025.12.03-14.06.32:860][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
