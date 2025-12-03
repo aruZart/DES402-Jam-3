@@ -2535,3 +2535,177 @@ Script Stack (0 frames) :
 [2025.12.03-14.06.32:845][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
 [2025.12.03-14.06.32:851][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
 [2025.12.03-14.06.32:860][ 51]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2025.12.03-14.08.06:124][394]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3534.295898
+[2025.12.03-14.08.07:124][397]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.03-14.08.07:124][397]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3534.961914, Update Interval: 326.985077
+[2025.12.03-14.11.05:662][933]LogDerivedDataCache: C:/Users/trona/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.03-14.12.39:682][361]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Painted_Wall__MAT.Painted_Wall__MAT
+[2025.12.03-14.12.39:684][361]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.12.03-14.12.53:523][ 94]LogSlate: Window 'Painted_Wall__MAT' being destroyed
+[2025.12.03-14.12.53:528][ 94]LogSlate: Window 'Painted_Wall__MAT' being destroyed
+[2025.12.03-14.12.53:545][ 94]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.12.03-14.12.53:545][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.03-14.12.53:586][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.12.03-14.13.17:336][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.12.03-14.13.17:347][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.03-14.13.17:390][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Substance/Templates/parent_materials/Substance_Standard_Template] ([1] browsable assets)...
+[2025.12.03-14.13.17:390][656]OBJ SavePackage: Finished generating thumbnails for package [/Substance/Templates/parent_materials/Substance_Standard_Template]
+[2025.12.03-14.13.17:399][656]LogSavePackage: Moving output files for package: /Substance/Templates/parent_materials/Substance_Standard_Template
+[2025.12.03-14.13.17:401][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_Standard_Template0394F3344F63EDA3DE0BC685FC8934D0.tmp' to '../../Plugins/Marketplace/Substanc62d2b1b7d197V27/Content/Templates/parent_materials/Substance_Standard_Template.uasset'
+[2025.12.03-14.13.17:403][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/testmat] ([1] browsable assets)...
+[2025.12.03-14.13.17:403][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/testmat]
+[2025.12.03-14.13.17:403][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/testmat" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/testmat.uasset" SILENT=true
+[2025.12.03-14.13.17:410][656]LogSavePackage: Moving output files for package: /Game/Materials/testmat
+[2025.12.03-14.13.17:411][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/testmatB140B6B142B49E592942949063145C61.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/testmat.uasset'
+[2025.12.03-14.13.17:412][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_INST] ([1] browsable assets)...
+[2025.12.03-14.13.17:412][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_INST]
+[2025.12.03-14.13.17:412][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_INST" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_INST.uasset" SILENT=true
+[2025.12.03-14.13.17:419][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_INST
+[2025.12.03-14.13.17:419][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_INST795D4D3B4EED42E8F70AB796FD6EBD80.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_INST.uasset'
+[2025.12.03-14.13.17:420][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_MAT] ([1] browsable assets)...
+[2025.12.03-14.13.17:420][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_MAT]
+[2025.12.03-14.13.17:420][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_MAT" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT.uasset" SILENT=true
+[2025.12.03-14.13.17:427][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_MAT
+[2025.12.03-14.13.17:427][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_MAT9ECB31B04A7FE6B2527B2BA67E793C81.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT.uasset'
+[2025.12.03-14.13.17:428][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_INST1] ([1] browsable assets)...
+[2025.12.03-14.13.17:428][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_INST1]
+[2025.12.03-14.13.17:428][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_INST1" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_INST1.uasset" SILENT=true
+[2025.12.03-14.13.17:434][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_INST1
+[2025.12.03-14.13.17:434][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_INST19AE163E0498FF1CC6C6D8897124CC251.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_INST1.uasset'
+[2025.12.03-14.13.17:435][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_MAT2] ([1] browsable assets)...
+[2025.12.03-14.13.17:435][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_MAT2]
+[2025.12.03-14.13.17:435][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_MAT2" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT2.uasset" SILENT=true
+[2025.12.03-14.13.17:443][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_MAT2
+[2025.12.03-14.13.17:443][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_MAT236B141B54029BD3985C4ADA79AE03CCE.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT2.uasset'
+[2025.12.03-14.13.17:444][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_MAT1] ([1] browsable assets)...
+[2025.12.03-14.13.17:444][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_MAT1]
+[2025.12.03-14.13.17:444][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_MAT1" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT1.uasset" SILENT=true
+[2025.12.03-14.13.17:450][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_MAT1
+[2025.12.03-14.13.17:450][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_MAT168E3A660415AE9C812D924A5C4B17A0C.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT1.uasset'
+[2025.12.03-14.13.17:452][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_INST2] ([1] browsable assets)...
+[2025.12.03-14.13.17:452][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_INST2]
+[2025.12.03-14.13.17:452][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_INST2" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_INST2.uasset" SILENT=true
+[2025.12.03-14.13.17:456][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_INST2
+[2025.12.03-14.13.17:456][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_INST22DC15AA0434135FDCC6D31A1ED48AC5D.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_INST2.uasset'
+[2025.12.03-14.13.17:459][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01] ([1] browsable assets)...
+[2025.12.03-14.13.17:459][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01]
+[2025.12.03-14.13.17:459][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Tiles/T_Tile_01" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01.uasset" SILENT=true
+[2025.12.03-14.13.17:465][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01
+[2025.12.03-14.13.17:465][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01CCC1FCB748904E4A92D352B40D75004C.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01.uasset'
+[2025.12.03-14.13.17:466][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_INST] ([1] browsable assets)...
+[2025.12.03-14.13.17:466][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_INST]
+[2025.12.03-14.13.17:466][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Tiles/T_Tile_01_INST" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST.uasset" SILENT=true
+[2025.12.03-14.13.17:472][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_INST
+[2025.12.03-14.13.17:472][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_INSTB0D3394845D5A597BA4ADA808333BD53.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST.uasset'
+[2025.12.03-14.13.17:473][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_INST_basecolor] ([1] browsable assets)...
+[2025.12.03-14.13.17:473][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_INST_basecolor]
+[2025.12.03-14.13.17:490][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_INST_basecolor
+[2025.12.03-14.13.17:491][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_INST_basecolorD51A98C443DD3AA8F289D68E6BE07113.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST_basecolor.uasset'
+[2025.12.03-14.13.17:493][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_INST_normal] ([1] browsable assets)...
+[2025.12.03-14.13.17:493][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_INST_normal]
+[2025.12.03-14.13.17:493][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Tiles/T_Tile_01_INST_normal" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST_normal.uasset" SILENT=true
+[2025.12.03-14.13.17:510][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_INST_normal
+[2025.12.03-14.13.17:510][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_INST_normalDC18CB9A4EF335F32BBB5E8241C2DF68.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST_normal.uasset'
+[2025.12.03-14.13.17:512][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_INST_roughness] ([1] browsable assets)...
+[2025.12.03-14.13.17:512][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_INST_roughness]
+[2025.12.03-14.13.17:525][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_INST_roughness
+[2025.12.03-14.13.17:525][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_INST_roughness3267552C425F00EFBE399DBA4D9F934E.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST_roughness.uasset'
+[2025.12.03-14.13.17:528][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_INST_metallic] ([1] browsable assets)...
+[2025.12.03-14.13.17:528][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_INST_metallic]
+[2025.12.03-14.13.17:539][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_INST_metallic
+[2025.12.03-14.13.17:540][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_INST_metallicBBC6E77B4393EDF33592FD8DA8B3CA7C.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST_metallic.uasset'
+[2025.12.03-14.13.17:541][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_MAT] ([1] browsable assets)...
+[2025.12.03-14.13.17:541][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_MAT]
+[2025.12.03-14.13.17:541][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Tiles/T_Tile_01_MAT" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_MAT.uasset" SILENT=true
+[2025.12.03-14.13.17:547][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_MAT
+[2025.12.03-14.13.17:547][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_MAT28D27B6042415AA6D57DD1825AFA2A72.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_MAT.uasset'
+[2025.12.03-14.13.17:548][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Tiles/T_Tile_01_INST_ambientocclusion] ([1] browsable assets)...
+[2025.12.03-14.13.17:548][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Tiles/T_Tile_01_INST_ambientocclusion]
+[2025.12.03-14.13.17:563][656]LogSavePackage: Moving output files for package: /Game/Materials/Tiles/T_Tile_01_INST_ambientocclusion
+[2025.12.03-14.13.17:563][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/T_Tile_01_INST_ambientocclusionF021A14E4FD3AD67F8EBDDB24B480489.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Tiles/T_Tile_01_INST_ambientocclusion.uasset'
+[2025.12.03-14.13.17:566][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_Standard_Template_Inst] ([1] browsable assets)...
+[2025.12.03-14.13.17:566][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_Standard_Template_Inst]
+[2025.12.03-14.13.17:573][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_Standard_Template_Inst
+[2025.12.03-14.13.17:573][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_Standard_Template_InstC2756F21450AEDB82F5A799A4B494067.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_Standard_Template_Inst.uasset'
+[2025.12.03-14.13.17:573][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Substance_graph_MAT1_Inst] ([1] browsable assets)...
+[2025.12.03-14.13.17:573][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Substance_graph_MAT1_Inst]
+[2025.12.03-14.13.17:573][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Substance_graph_MAT1_Inst" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT1_Inst.uasset" SILENT=true
+[2025.12.03-14.13.17:581][656]LogSavePackage: Moving output files for package: /Game/Materials/Substance_graph_MAT1_Inst
+[2025.12.03-14.13.17:581][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Substance_graph_MAT1_Inst93D65C814896F61C297294B4885E811A.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Substance_graph_MAT1_Inst.uasset'
+[2025.12.03-14.13.17:582][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Plaster/Painted_Wall_] ([1] browsable assets)...
+[2025.12.03-14.13.17:582][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall_]
+[2025.12.03-14.13.17:582][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Plaster/Painted_Wall_" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall_.uasset" SILENT=true
+[2025.12.03-14.13.17:588][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall_
+[2025.12.03-14.13.17:588][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall_192DEB314363862AD3A86FB645DEDD67.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall_.uasset'
+[2025.12.03-14.13.17:590][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Plaster/Painted_Wall__INST] ([1] browsable assets)...
+[2025.12.03-14.13.17:590][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall__INST]
+[2025.12.03-14.13.17:590][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Plaster/Painted_Wall__INST" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST.uasset" SILENT=true
+[2025.12.03-14.13.17:596][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall__INST
+[2025.12.03-14.13.17:596][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__INSTBC80A20C4C47CF30ED23829A1CD38394.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST.uasset'
+[2025.12.03-14.13.17:598][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Plaster/Painted_Wall__INST_basecolor] ([1] browsable assets)...
+[2025.12.03-14.13.17:603][656]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Plaster/Painted_Wall__INST_basecolor.Painted_Wall__INST_basecolor]
+[2025.12.03-14.13.17:603][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall__INST_basecolor]
+[2025.12.03-14.13.17:618][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall__INST_basecolor
+[2025.12.03-14.13.17:618][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__INST_basecolor7E6F6EBA43DBDA34292EF783D7D894FB.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST_basecolor.uasset'
+[2025.12.03-14.13.17:620][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Plaster/Painted_Wall__INST_normal] ([1] browsable assets)...
+[2025.12.03-14.13.17:622][656]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Plaster/Painted_Wall__INST_normal.Painted_Wall__INST_normal]
+[2025.12.03-14.13.17:622][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall__INST_normal]
+[2025.12.03-14.13.17:641][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall__INST_normal
+[2025.12.03-14.13.17:641][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__INST_normalDE93A0974FB997CBED2894A86C5E6C52.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST_normal.uasset'
+[2025.12.03-14.13.17:643][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Plaster/Painted_Wall__INST_roughness] ([1] browsable assets)...
+[2025.12.03-14.13.17:644][656]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Plaster/Painted_Wall__INST_roughness.Painted_Wall__INST_roughness]
+[2025.12.03-14.13.17:644][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall__INST_roughness]
+[2025.12.03-14.13.17:656][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall__INST_roughness
+[2025.12.03-14.13.17:656][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__INST_roughnessE330A67349893FAEA6625DA21A0C8232.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST_roughness.uasset'
+[2025.12.03-14.13.17:658][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Plaster/Painted_Wall__INST_metallic] ([1] browsable assets)...
+[2025.12.03-14.13.17:660][656]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Plaster/Painted_Wall__INST_metallic.Painted_Wall__INST_metallic]
+[2025.12.03-14.13.17:660][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall__INST_metallic]
+[2025.12.03-14.13.17:676][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall__INST_metallic
+[2025.12.03-14.13.17:676][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__INST_metallic6A42AB1E408A8B5CCD000580948CB49D.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST_metallic.uasset'
+[2025.12.03-14.13.17:678][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Painted_Wall__MAT] ([1] browsable assets)...
+[2025.12.03-14.13.17:740][656]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/Painted_Wall__MAT.Painted_Wall__MAT]
+[2025.12.03-14.13.17:740][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Painted_Wall__MAT]
+[2025.12.03-14.13.17:740][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Painted_Wall__MAT" FILE="C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Painted_Wall__MAT.uasset" SILENT=true
+[2025.12.03-14.13.17:748][656]LogSavePackage: Moving output files for package: /Game/Materials/Painted_Wall__MAT
+[2025.12.03-14.13.17:750][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__MAT15F05D164600043A97911693B51BA72C.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Painted_Wall__MAT.uasset'
+[2025.12.03-14.13.17:752][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Plaster/Painted_Wall__INST_ambientocclusion] ([1] browsable assets)...
+[2025.12.03-14.13.17:754][656]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Plaster/Painted_Wall__INST_ambientocclusion.Painted_Wall__INST_ambientocclusion]
+[2025.12.03-14.13.17:754][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Plaster/Painted_Wall__INST_ambientocclusion]
+[2025.12.03-14.13.17:766][656]LogSavePackage: Moving output files for package: /Game/Materials/Plaster/Painted_Wall__INST_ambientocclusion
+[2025.12.03-14.13.17:766][656]LogSavePackage: Moving 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/Painted_Wall__INST_ambientocclus437E8AAF4F33EC0005932080E8CE45FF.tmp' to 'C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Content/Materials/Plaster/Painted_Wall__INST_ambientocclusion.uasset'
+[2025.12.03-14.13.17:777][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 429.547 ms (total: 1.09 sec)
+[2025.12.03-14.13.17:832][656]LogContentValidation: Display: Starting to validate 26 assets
+[2025.12.03-14.13.17:832][656]LogContentValidation: Enabled validators:
+[2025.12.03-14.13.17:832][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.03-14.13.17:832][656]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.03-14.13.17:832][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.03-14.13.17:832][656]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.03-14.13.17:832][656]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.03-14.13.17:832][656]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.03-14.13.17:832][656]AssetCheck: /Substance/Templates/parent_materials/Substance_Standard_Template Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/testmat Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/Substance_graph_INST Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/Substance_graph_MAT Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/Substance_graph_INST1 Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/Substance_graph_MAT2 Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/Substance_graph_MAT1 Validating asset
+[2025.12.03-14.13.17:832][656]AssetCheck: /Game/Materials/Substance_graph_INST2 Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01 Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_INST Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_INST_basecolor Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_INST_normal Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_INST_roughness Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_INST_metallic Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_MAT Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Tiles/T_Tile_01_INST_ambientocclusion Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Substance_Standard_Template_Inst Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Substance_graph_MAT1_Inst Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall_ Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall__INST Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall__INST_basecolor Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall__INST_normal Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall__INST_roughness Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall__INST_metallic Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Painted_Wall__MAT Validating asset
+[2025.12.03-14.13.17:833][656]AssetCheck: /Game/Materials/Plaster/Painted_Wall__INST_ambientocclusion Validating asset
+[2025.12.03-14.13.17:851][656]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Users/trona/Documents/GitHub/DES402-Jam-3/Childfree/Saved/SourceControl/UncontrolledChangelists.json
